@@ -1,0 +1,2073 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC0AAB9E1A0C79E700232357 /* Icon-120@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0AAB991A0C79E700232357 /* Icon-120@2x.png */; };
+		BC0AAB9F1A0C79E700232357 /* Icon-58@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0AAB9A1A0C79E700232357 /* Icon-58@2x.png */; };
+		BC0AABA01A0C79E700232357 /* Icon-80@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0AAB9B1A0C79E700232357 /* Icon-80@2x.png */; };
+		BC0AABA11A0C79E700232357 /* launchimage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0AAB9C1A0C79E700232357 /* launchimage-568h@2x.png */; };
+		BC0AABA21A0C79E700232357 /* launchimage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0AAB9D1A0C79E700232357 /* launchimage@2x.png */; };
+		BC0AABA61A0C9AA900232357 /* btnbgimg.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0AABA51A0C9AA900232357 /* btnbgimg.png */; };
+		BC0AAC261A0CF77300232357 /* baiqing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0AAC241A0CF77300232357 /* baiqing@2x.png */; };
+		BC0AAC291A0CF88B00232357 /* shuiyue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0AAC281A0CF88B00232357 /* shuiyue@2x.png */; };
+		BC0B30D21A09C82300581241 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0B30C81A09C82300581241 /* 0.png */; };
+		BC0B30D31A09C82300581241 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0B30C91A09C82300581241 /* 1.png */; };
+		BC0B30D41A09C82300581241 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0B30CA1A09C82300581241 /* 2.png */; };
+		BC0B30D51A09C82300581241 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0B30CB1A09C82300581241 /* 3.png */; };
+		BC0B30D61A09C82300581241 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0B30CC1A09C82300581241 /* 4.png */; };
+		BC0B30D71A09C82300581241 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0B30CD1A09C82300581241 /* 5.png */; };
+		BC0B30D81A09C82300581241 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0B30CE1A09C82300581241 /* 6.png */; };
+		BC0B30D91A09C82300581241 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0B30CF1A09C82300581241 /* 7.png */; };
+		BC0B30DA1A09C82300581241 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0B30D01A09C82300581241 /* 8.png */; };
+		BC0B30DB1A09C82300581241 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0B30D11A09C82300581241 /* 9.png */; };
+		BC0B30DF1A09D5C200581241 /* wuchangx.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0B30DE1A09D5C200581241 /* wuchangx.png */; };
+		BC0B30E11A0A09FC00581241 /* bgimg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0B30E01A0A09FC00581241 /* bgimg@2x.png */; };
+		BC0D30691A0339B50079AF06 /* BnsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0D30681A0339B50079AF06 /* BnsModel.m */; };
+		BC0D306D1A033B980079AF06 /* HttpRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0D306C1A033B980079AF06 /* HttpRequestManager.m */; };
+		BC145F5B1A14451E00732D8B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC145F591A14451E00732D8B /* LoginViewController.m */; };
+		BC145F5C1A14451E00732D8B /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC145F5A1A14451E00732D8B /* LoginViewController.xib */; };
+		BC145F5F1A14507C00732D8B /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC145F5E1A14507C00732D8B /* RegisterViewController.m */; };
+		BC145F621A14902700732D8B /* BBSDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC145F611A14902700732D8B /* BBSDetailController.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		BC145F651A14962100732D8B /* BBSDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC145F641A14962100732D8B /* BBSDetailModel.m */; };
+		BC145F6C1A149D1600732D8B /* BBSDetailViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC145F6A1A149D1600732D8B /* BBSDetailViewCell.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		BC145F6D1A149D1600732D8B /* BBSDetailViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC145F6B1A149D1600732D8B /* BBSDetailViewCell.xib */; };
+		BC19EAEF19F49FEB00A3762A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC19EAEE19F49FEB00A3762A /* Foundation.framework */; };
+		BC19EAF119F49FEB00A3762A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC19EAF019F49FEB00A3762A /* CoreGraphics.framework */; };
+		BC19EAF319F49FEB00A3762A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC19EAF219F49FEB00A3762A /* UIKit.framework */; };
+		BC19EAF919F49FEB00A3762A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC19EAF719F49FEB00A3762A /* InfoPlist.strings */; };
+		BC19EAFB19F49FEB00A3762A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC19EAFA19F49FEB00A3762A /* main.m */; };
+		BC19EAFF19F49FEB00A3762A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC19EAFE19F49FEB00A3762A /* AppDelegate.m */; };
+		BC19EB0119F49FEB00A3762A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC19EB0019F49FEB00A3762A /* Images.xcassets */; };
+		BC19EB0819F49FEB00A3762A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC19EB0719F49FEB00A3762A /* XCTest.framework */; };
+		BC19EB0919F49FEB00A3762A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC19EAEE19F49FEB00A3762A /* Foundation.framework */; };
+		BC19EB0A19F49FEB00A3762A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC19EAF219F49FEB00A3762A /* UIKit.framework */; };
+		BC19EB1219F49FEB00A3762A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC19EB1019F49FEB00A3762A /* InfoPlist.strings */; };
+		BC19EB1419F49FEB00A3762A /* BnSBangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC19EB1319F49FEB00A3762A /* BnSBangTests.m */; };
+		BC19EB2219F4A05A00A3762A /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC19EB2119F4A05A00A3762A /* MyTabBarController.m */; };
+		BC19EB2619F4A16B00A3762A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC19EB2419F4A16B00A3762A /* MainViewController.m */; };
+		BC19EB2B19F4A29D00A3762A /* BaguaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC19EB2919F4A29D00A3762A /* BaguaViewController.m */; };
+		BC19EB3419F4B04900A3762A /* SrcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC19EB3319F4B04900A3762A /* SrcViewController.m */; };
+		BC19EB3619F4B47300A3762A /* image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC19EB3519F4B47300A3762A /* image@2x.png */; };
+		BC19EB3819F4B49800A3762A /* imagex@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC19EB3719F4B49800A3762A /* imagex@2x.png */; };
+		BC19EB5019F4BEC200A3762A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BC19EB4F19F4BEC200A3762A /* libsqlite3.dylib */; };
+		BC38EB6F1A0A27E0001834A5 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC38EB6E1A0A27E0001834A5 /* VideoViewController.m */; };
+		BC38EB721A0A292A001834A5 /* EquipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC38EB711A0A292A001834A5 /* EquipViewController.m */; };
+		BC38EB7C1A0A36AE001834A5 /* tabbar_bns.png in Resources */ = {isa = PBXBuildFile; fileRef = BC38EB741A0A36AE001834A5 /* tabbar_bns.png */; };
+		BC38EB7D1A0A36AE001834A5 /* tabbar_bns@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC38EB751A0A36AE001834A5 /* tabbar_bns@2x.png */; };
+		BC38EB7E1A0A36AE001834A5 /* tabbar_gl.png in Resources */ = {isa = PBXBuildFile; fileRef = BC38EB761A0A36AE001834A5 /* tabbar_gl.png */; };
+		BC38EB7F1A0A36AE001834A5 /* tabbar_gl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC38EB771A0A36AE001834A5 /* tabbar_gl@2x.png */; };
+		BC38EB801A0A36AE001834A5 /* tabbar_pic.png in Resources */ = {isa = PBXBuildFile; fileRef = BC38EB781A0A36AE001834A5 /* tabbar_pic.png */; };
+		BC38EB811A0A36AE001834A5 /* tabbar_pic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC38EB791A0A36AE001834A5 /* tabbar_pic@2x.png */; };
+		BC38EB821A0A36AE001834A5 /* tabbar_video.png in Resources */ = {isa = PBXBuildFile; fileRef = BC38EB7A1A0A36AE001834A5 /* tabbar_video.png */; };
+		BC38EB831A0A36AE001834A5 /* tabbar_video@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC38EB7B1A0A36AE001834A5 /* tabbar_video@2x.png */; };
+		BC38EB861A0A5128001834A5 /* jewelryimg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC38EB841A0A5128001834A5 /* jewelryimg@2x.png */; };
+		BC38EB871A0A5128001834A5 /* weaponimg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC38EB851A0A5128001834A5 /* weaponimg@2x.png */; };
+		BC38EB891A0A5134001834A5 /* baguaimg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC38EB881A0A5134001834A5 /* baguaimg@2x.png */; };
+		BC7C38741A10A04E00522D94 /* CollectViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7C38731A10A04E00522D94 /* CollectViewCell.m */; };
+		BC7C38771A10A06400522D94 /* CollectLayOut.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7C38761A10A06400522D94 /* CollectLayOut.m */; };
+		BC7C387A1A10A08400522D94 /* ImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7C38791A10A08400522D94 /* ImageModel.m */; };
+		BC98E8F21A08CD0300261F9E /* bglogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E8F11A08CD0300261F9E /* bglogo@2x.png */; };
+		BC98E8F51A08D13600261F9E /* JewelryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC98E8F41A08D13600261F9E /* JewelryViewController.m */; };
+		BC98E8F71A08D82700261F9E /* bgjewelry@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E8F61A08D82700261F9E /* bgjewelry@2x.png */; };
+		BC98E8F91A08D9D200261F9E /* bgweapon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E8F81A08D9D200261F9E /* bgweapon@2x.png */; };
+		BC98E8FF1A08DC6500261F9E /* bgbagua.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E8FE1A08DC6500261F9E /* bgbagua.png */; };
+		BC98E9011A08EAB200261F9E /* WeaponList.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9001A08EAB200261F9E /* WeaponList.plist */; };
+		BC98E9041A08F0B200261F9E /* MainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC98E9031A08F0B200261F9E /* MainModel.m */; };
+		BC98E9071A08F10300261F9E /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC98E9061A08F10300261F9E /* BaseModel.m */; };
+		BC98E90B1A08F6A100261F9E /* MainViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC98E9091A08F6A100261F9E /* MainViewCell.m */; };
+		BC98E90C1A08F6A100261F9E /* MainViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC98E90A1A08F6A100261F9E /* MainViewCell.xib */; };
+		BC98E90E1A08FC7400261F9E /* JewelryList.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC98E90D1A08FC7400261F9E /* JewelryList.plist */; };
+		BC98E91C1A09065D00261F9E /* bqcq@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9101A09065D00261F9E /* bqcq@2x.png */; };
+		BC98E91D1A09065D00261F9E /* 白青苍穹八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9111A09065D00261F9E /* 白青苍穹八卦牌img.png */; };
+		BC98E91E1A09065D00261F9E /* bqdd@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9121A09065D00261F9E /* bqdd@2x.png */; };
+		BC98E91F1A09065D00261F9E /* 白青大地八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9131A09065D00261F9E /* 白青大地八卦牌img.png */; };
+		BC98E9201A09065D00261F9E /* shexie@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9141A09065D00261F9E /* shexie@2x.png */; };
+		BC98E9211A09065D00261F9E /* 蛇蝎帝王八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9151A09065D00261F9E /* 蛇蝎帝王八卦牌img.png */; };
+		BC98E9221A09065D00261F9E /* tianlong@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9161A09065D00261F9E /* tianlong@2x.png */; };
+		BC98E9231A09065D00261F9E /* 天龙八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9171A09065D00261F9E /* 天龙八卦牌img.png */; };
+		BC98E9241A09065D00261F9E /* xiuluo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9181A09065D00261F9E /* xiuluo@2x.png */; };
+		BC98E9251A09065D00261F9E /* 修罗八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9191A09065D00261F9E /* 修罗八卦牌img.png */; };
+		BC98E9261A09065D00261F9E /* xueren@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E91A1A09065D00261F9E /* xueren@2x.png */; };
+		BC98E9271A09065D00261F9E /* 雪人八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E91B1A09065D00261F9E /* 雪人八卦牌img.png */; };
+		BC98E9291A0906B200261F9E /* BaguaList.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9281A0906B200261F9E /* BaguaList.plist */; };
+		BC99BDA61A0F2B5F00A3C791 /* dazhong.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDA41A0F2B5F00A3C791 /* dazhong.png */; };
+		BC99BDA71A0F2B5F00A3C791 /* jixian.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDA51A0F2B5F00A3C791 /* jixian.png */; };
+		BC99BE451A0F4B5F00A3C791 /* ahl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDAA1A0F4B5F00A3C791 /* ahl@2x.png */; };
+		BC99BE461A0F4B5F00A3C791 /* bl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDAB1A0F4B5F00A3C791 /* bl@2x.png */; };
+		BC99BE471A0F4B5F00A3C791 /* bp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDAC1A0F4B5F00A3C791 /* bp@2x.png */; };
+		BC99BE481A0F4B5F00A3C791 /* ch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDAD1A0F4B5F00A3C791 /* ch@2x.png */; };
+		BC99BE491A0F4B5F00A3C791 /* cw@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDAE1A0F4B5F00A3C791 /* cw@2x.png */; };
+		BC99BE4A1A0F4B5F00A3C791 /* dgj@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDAF1A0F4B5F00A3C791 /* dgj@2x.png */; };
+		BC99BE4B1A0F4B5F00A3C791 /* dmhj@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDB01A0F4B5F00A3C791 /* dmhj@2x.png */; };
+		BC99BE4C1A0F4B5F00A3C791 /* dmxs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDB11A0F4B5F00A3C791 /* dmxs@2x.png */; };
+		BC99BE4D1A0F4B5F00A3C791 /* ds@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDB21A0F4B5F00A3C791 /* ds@2x.png */; };
+		BC99BE4E1A0F4B5F00A3C791 /* dus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDB31A0F4B5F00A3C791 /* dus@2x.png */; };
+		BC99BE4F1A0F4B5F00A3C791 /* dw@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDB41A0F4B5F00A3C791 /* dw@2x.png */; };
+		BC99BE501A0F4B5F00A3C791 /* dz@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDB51A0F4B5F00A3C791 /* dz@2x.png */; };
+		BC99BE511A0F4B5F00A3C791 /* dzs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDB61A0F4B5F00A3C791 /* dzs@2x.png */; };
+		BC99BE521A0F4B5F00A3C791 /* gsm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDB71A0F4B5F00A3C791 /* gsm@2x.png */; };
+		BC99BE531A0F4B5F00A3C791 /* gssg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDB81A0F4B5F00A3C791 /* gssg@2x.png */; };
+		BC99BE541A0F4B5F00A3C791 /* hfn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDB91A0F4B5F00A3C791 /* hfn@2x.png */; };
+		BC99BE551A0F4B5F00A3C791 /* hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDBA1A0F4B5F00A3C791 /* hl@2x.png */; };
+		BC99BE561A0F4B5F00A3C791 /* hs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDBB1A0F4B5F00A3C791 /* hs@2x.png */; };
+		BC99BE571A0F4B5F00A3C791 /* hslz@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDBC1A0F4B5F00A3C791 /* hslz@2x.png */; };
+		BC99BE581A0F4B5F00A3C791 /* hus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDBD1A0F4B5F00A3C791 /* hus@2x.png */; };
+		BC99BE591A0F4B5F00A3C791 /* jg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDBE1A0F4B5F00A3C791 /* jg@2x.png */; };
+		BC99BE5A1A0F4B5F00A3C791 /* jy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDBF1A0F4B5F00A3C791 /* jy@2x.png */; };
+		BC99BE5B1A0F4B5F00A3C791 /* ls@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDC01A0F4B5F00A3C791 /* ls@2x.png */; };
+		BC99BE5C1A0F4B5F00A3C791 /* lwq@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDC11A0F4B5F00A3C791 /* lwq@2x.png */; };
+		BC99BE5D1A0F4B5F00A3C791 /* ly@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDC21A0F4B5F00A3C791 /* ly@2x.png */; };
+		BC99BE5E1A0F4B5F00A3C791 /* mg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDC31A0F4B5F00A3C791 /* mg@2x.png */; };
+		BC99BE5F1A0F4B5F00A3C791 /* mz@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDC41A0F4B5F00A3C791 /* mz@2x.png */; };
+		BC99BE601A0F4B5F00A3C791 /* nw@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDC51A0F4B5F00A3C791 /* nw@2x.png */; };
+		BC99BE611A0F4B5F00A3C791 /* qh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDC61A0F4B5F00A3C791 /* qh@2x.png */; };
+		BC99BE621A0F4B5F00A3C791 /* qtm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDC71A0F4B5F00A3C791 /* qtm@2x.png */; };
+		BC99BE631A0F4B5F00A3C791 /* ry@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDC81A0F4B5F00A3C791 /* ry@2x.png */; };
+		BC99BE641A0F4B5F00A3C791 /* sldylz@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDC91A0F4B5F00A3C791 /* sldylz@2x.png */; };
+		BC99BE651A0F4B5F00A3C791 /* sypybw@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDCA1A0F4B5F00A3C791 /* sypybw@2x.png */; };
+		BC99BE661A0F4B5F00A3C791 /* sypyhj@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDCB1A0F4B5F00A3C791 /* sypyhj@2x.png */; };
+		BC99BE671A0F4B5F00A3C791 /* tkw@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDCC1A0F4B5F00A3C791 /* tkw@2x.png */; };
+		BC99BE681A0F4B5F00A3C791 /* tz@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDCD1A0F4B5F00A3C791 /* tz@2x.png */; };
+		BC99BE691A0F4B5F00A3C791 /* wh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDCE1A0F4B5F00A3C791 /* wh@2x.png */; };
+		BC99BE6A1A0F4B5F00A3C791 /* wk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDCF1A0F4B5F00A3C791 /* wk@2x.png */; };
+		BC99BE6B1A0F4B5F00A3C791 /* ws@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDD01A0F4B5F00A3C791 /* ws@2x.png */; };
+		BC99BE6C1A0F4B5F00A3C791 /* wy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDD11A0F4B5F00A3C791 /* wy@2x.png */; };
+		BC99BE6D1A0F4B5F00A3C791 /* xlsw@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDD21A0F4B5F00A3C791 /* xlsw@2x.png */; };
+		BC99BE6E1A0F4B5F00A3C791 /* xz@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDD31A0F4B5F00A3C791 /* xz@2x.png */; };
+		BC99BE6F1A0F4B5F00A3C791 /* ybd@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDD41A0F4B5F00A3C791 /* ybd@2x.png */; };
+		BC99BE701A0F4B5F00A3C791 /* yllyx@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDD51A0F4B5F00A3C791 /* yllyx@2x.png */; };
+		BC99BE711A0F4B5F00A3C791 /* 万魂八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDD61A0F4B5F00A3C791 /* 万魂八卦牌@2x.png */; };
+		BC99BE721A0F4B5F00A3C791 /* 万魂八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDD71A0F4B5F00A3C791 /* 万魂八卦牌img.png */; };
+		BC99BE731A0F4B5F00A3C791 /* 了无情八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDD81A0F4B5F00A3C791 /* 了无情八卦牌@2x.png */; };
+		BC99BE741A0F4B5F00A3C791 /* 了无情八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDD91A0F4B5F00A3C791 /* 了无情八卦牌img.png */; };
+		BC99BE751A0F4B5F00A3C791 /* 佣兵队八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDDA1A0F4B5F00A3C791 /* 佣兵队八卦牌@2x.png */; };
+		BC99BE761A0F4B5F00A3C791 /* 佣兵队八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDDB1A0F4B5F00A3C791 /* 佣兵队八卦牌img.png */; };
+		BC99BE771A0F4B5F00A3C791 /* 修罗八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDDC1A0F4B5F00A3C791 /* 修罗八卦牌@2x.png */; };
+		BC99BE781A0F4B5F00A3C791 /* 冰魄八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDDD1A0F4B5F00A3C791 /* 冰魄八卦牌@2x.png */; };
+		BC99BE791A0F4B5F00A3C791 /* 冰魄八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDDE1A0F4B5F00A3C791 /* 冰魄八卦牌img.png */; };
+		BC99BE7A1A0F4B5F00A3C791 /* 千魂八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDDF1A0F4B5F00A3C791 /* 千魂八卦牌@2x.png */; };
+		BC99BE7B1A0F4B5F00A3C791 /* 千魂八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDE01A0F4B5F00A3C791 /* 千魂八卦牌img.png */; };
+		BC99BE7C1A0F4B5F00A3C791 /* 大漠侠士八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDE11A0F4B5F00A3C791 /* 大漠侠士八卦牌@2x.png */; };
+		BC99BE7D1A0F4B5F00A3C791 /* 大漠侠士八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDE21A0F4B5F00A3C791 /* 大漠侠士八卦牌img.png */; };
+		BC99BE7E1A0F4B5F00A3C791 /* 大漠豪杰八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDE31A0F4B5F00A3C791 /* 大漠豪杰八卦牌@2x.png */; };
+		BC99BE7F1A0F4B5F00A3C791 /* 大漠豪杰八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDE41A0F4B5F00A3C791 /* 大漠豪杰八卦牌img.png */; };
+		BC99BE801A0F4B5F00A3C791 /* 大王八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDE51A0F4B5F00A3C791 /* 大王八卦牌@2x.png */; };
+		BC99BE811A0F4B5F00A3C791 /* 大王八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDE61A0F4B5F00A3C791 /* 大王八卦牌img.png */; };
+		BC99BE821A0F4B5F00A3C791 /* 天照八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDE71A0F4B5F00A3C791 /* 天照八卦牌@2x.png */; };
+		BC99BE831A0F4B5F00A3C791 /* 天照八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDE81A0F4B5F00A3C791 /* 天照八卦牌img.png */; };
+		BC99BE841A0F4B5F00A3C791 /* 天龙八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDE91A0F4B5F00A3C791 /* 天龙八卦牌@2x.png */; };
+		BC99BE851A0F4B5F00A3C791 /* 失落的永灵族八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDEA1A0F4B5F00A3C791 /* 失落的永灵族八卦牌@2x.png */; };
+		BC99BE861A0F4B5F00A3C791 /* 失落的永灵族八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDEB1A0F4B5F00A3C791 /* 失落的永灵族八卦牌img.png */; };
+		BC99BE871A0F4B5F00A3C791 /* 女王八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDEC1A0F4B5F00A3C791 /* 女王八卦牌@2x.png */; };
+		BC99BE881A0F4B5F00A3C791 /* 女王八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDED1A0F4B5F00A3C791 /* 女王八卦牌img.png */; };
+		BC99BE891A0F4B5F00A3C791 /* 巨岩八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDEE1A0F4B5F00A3C791 /* 巨岩八卦牌@2x.png */; };
+		BC99BE8A1A0F4B5F00A3C791 /* 巨岩八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDEF1A0F4B5F00A3C791 /* 巨岩八卦牌img.png */; };
+		BC99BE8B1A0F4B5F00A3C791 /* 巴勒八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDF01A0F4B5F00A3C791 /* 巴勒八卦牌@2x.png */; };
+		BC99BE8C1A0F4B5F00A3C791 /* 巴勒八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDF11A0F4B5F00A3C791 /* 巴勒八卦牌img.png */; };
+		BC99BE8D1A0F4B5F00A3C791 /* 帝国军八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDF21A0F4B5F00A3C791 /* 帝国军八卦牌@2x.png */; };
+		BC99BE8E1A0F4B5F00A3C791 /* 帝国军八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDF31A0F4B5F00A3C791 /* 帝国军八卦牌img.png */; };
+		BC99BE8F1A0F4B5F00A3C791 /* 幻术八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDF41A0F4B5F00A3C791 /* 幻术八卦牌@2x.png */; };
+		BC99BE901A0F4B5F00A3C791 /* 幻术八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDF51A0F4B5F00A3C791 /* 幻术八卦牌img.png */; };
+		BC99BE911A0F4B5F00A3C791 /* 彩虹八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDF61A0F4B5F00A3C791 /* 彩虹八卦牌@2x.png */; };
+		BC99BE921A0F4B5F00A3C791 /* 彩虹八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDF71A0F4B5F00A3C791 /* 彩虹八卦牌img.png */; };
+		BC99BE931A0F4B5F00A3C791 /* 御龙林英雄八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDF81A0F4B5F00A3C791 /* 御龙林英雄八卦牌@2x.png */; };
+		BC99BE941A0F4B5F00A3C791 /* 御龙林英雄八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDF91A0F4B5F00A3C791 /* 御龙林英雄八卦牌img.png */; };
+		BC99BE951A0F4B5F00A3C791 /* 悟空八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDFA1A0F4B5F00A3C791 /* 悟空八卦牌@2x.png */; };
+		BC99BE961A0F4B5F00A3C791 /* 悟空八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDFB1A0F4B5F00A3C791 /* 悟空八卦牌img.png */; };
+		BC99BE971A0F4B5F00A3C791 /* 擎天盟八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDFC1A0F4B5F00A3C791 /* 擎天盟八卦牌@2x.png */; };
+		BC99BE981A0F4B5F00A3C791 /* 擎天盟八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDFD1A0F4B5F00A3C791 /* 擎天盟八卦牌img.png */; };
+		BC99BE991A0F4B5F00A3C791 /* 斗战八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDFE1A0F4B5F00A3C791 /* 斗战八卦牌@2x.png */; };
+		BC99BE9A1A0F4B5F00A3C791 /* 斗战八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDFF1A0F4B5F00A3C791 /* 斗战八卦牌img.png */; };
+		BC99BE9B1A0F4B5F00A3C791 /* 斗战圣八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE001A0F4B5F00A3C791 /* 斗战圣八卦牌@2x.png */; };
+		BC99BE9C1A0F4B5F00A3C791 /* 斗战圣八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE011A0F4B5F00A3C791 /* 斗战圣八卦牌img.png */; };
+		BC99BE9D1A0F4B5F00A3C791 /* 斗神八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE021A0F4B5F00A3C791 /* 斗神八卦牌@2x.png */; };
+		BC99BE9E1A0F4B5F00A3C791 /* 斗神八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE031A0F4B5F00A3C791 /* 斗神八卦牌img.png */; };
+		BC99BE9F1A0F4B5F00A3C791 /* 无影八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE041A0F4B5F00A3C791 /* 无影八卦牌@2x.png */; };
+		BC99BEA01A0F4B5F00A3C791 /* 无影八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE051A0F4B5F00A3C791 /* 无影八卦牌img.png */; };
+		BC99BEA11A0F4B5F00A3C791 /* 日月八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE061A0F4B5F00A3C791 /* 日月八卦牌@2x.png */; };
+		BC99BEA21A0F4B5F00A3C791 /* 日月八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE071A0F4B5F00A3C791 /* 日月八卦牌img.png */; };
+		BC99BEA31A0F4B5F00A3C791 /* 暗黑龙八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE081A0F4B5F00A3C791 /* 暗黑龙八卦牌@2x.png */; };
+		BC99BEA41A0F4B5F00A3C791 /* 暗黑龙八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE091A0F4B5F00A3C791 /* 暗黑龙八卦牌img.png */; };
+		BC99BEA51A0F4B5F00A3C791 /* 武神八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE0A1A0F4B5F00A3C791 /* 武神八卦牌@2x.png */; };
+		BC99BEA61A0F4B5F00A3C791 /* 武神八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE0B1A0F4B5F00A3C791 /* 武神八卦牌img.png */; };
+		BC99BEA71A0F4B5F00A3C791 /* 毒蛇八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE0C1A0F4B5F00A3C791 /* 毒蛇八卦牌@2x.png */; };
+		BC99BEA81A0F4B5F00A3C791 /* 毒蛇八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE0D1A0F4B5F00A3C791 /* 毒蛇八卦牌img.png */; };
+		BC99BEA91A0F4B5F00A3C791 /* 水月平原比武八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE0E1A0F4B5F00A3C791 /* 水月平原比武八卦牌@2x.png */; };
+		BC99BEAA1A0F4B5F00A3C791 /* 水月平原比武八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE0F1A0F4B5F00A3C791 /* 水月平原比武八卦牌img.png */; };
+		BC99BEAB1A0F4B5F00A3C791 /* 水月平原豪杰八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE101A0F4B5F00A3C791 /* 水月平原豪杰八卦牌@2x.png */; };
+		BC99BEAC1A0F4B5F00A3C791 /* 水月平原豪杰八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE111A0F4B5F00A3C791 /* 水月平原豪杰八卦牌img.png */; };
+		BC99BEAD1A0F4B5F00A3C791 /* 海蛇八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE121A0F4B5F00A3C791 /* 海蛇八卦牌@2x.png */; };
+		BC99BEAE1A0F4B5F00A3C791 /* 海蛇八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE131A0F4B5F00A3C791 /* 海蛇八卦牌img.png */; };
+		BC99BEAF1A0F4B5F00A3C791 /* 灵兽八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE141A0F4B5F00A3C791 /* 灵兽八卦牌@2x.png */; };
+		BC99BEB01A0F4B5F00A3C791 /* 灵兽八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE151A0F4B5F00A3C791 /* 灵兽八卦牌img.png */; };
+		BC99BEB11A0F4B5F00A3C791 /* 白青大地八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE161A0F4B5F00A3C791 /* 白青大地八卦牌@2x.png */; };
+		BC99BEB21A0F4B5F00A3C791 /* 白青苍穹八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE171A0F4B5F00A3C791 /* 白青苍穹八卦牌@2x.png */; };
+		BC99BEB31A0F4B5F00A3C791 /* 盖世神功八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE181A0F4B5F00A3C791 /* 盖世神功八卦牌@2x.png */; };
+		BC99BEB41A0F4B5F00A3C791 /* 盖世神功八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE191A0F4B5F00A3C791 /* 盖世神功八卦牌img.png */; };
+		BC99BEB51A0F4B5F00A3C791 /* 红莲八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE1A1A0F4B5F00A3C791 /* 红莲八卦牌@2x.png */; };
+		BC99BEB61A0F4B5F00A3C791 /* 红莲八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE1B1A0F4B5F00A3C791 /* 红莲八卦牌img.png */; };
+		BC99BEB71A0F4B5F00A3C791 /* 蛇蝎帝王八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE1C1A0F4B5F00A3C791 /* 蛇蝎帝王八卦牌@2x.png */; };
+		BC99BEB81A0F4B5F00A3C791 /* 血浪鲨湾八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE1D1A0F4B5F00A3C791 /* 血浪鲨湾八卦牌img.png */; };
+		BC99BEB91A0F4B5F00A3C791 /* 血浪鲨湾八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE1E1A0F4B5F00A3C791 /* 血浪鲨湾八卦牌@2x.png */; };
+		BC99BEBA1A0F4B5F00A3C791 /* 血猪八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE1F1A0F4B5F00A3C791 /* 血猪八卦牌@2x.png */; };
+		BC99BEBB1A0F4B5F00A3C791 /* 血猪八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE201A0F4B5F00A3C791 /* 血猪八卦牌img.png */; };
+		BC99BEBC1A0F4B5F00A3C791 /* 赤尾八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE211A0F4B5F00A3C791 /* 赤尾八卦牌@2x.png */; };
+		BC99BEBD1A0F4B5F00A3C791 /* 赤尾八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE221A0F4B5F00A3C791 /* 赤尾八卦牌img.png */; };
+		BC99BEBE1A0F4B5F00A3C791 /* 迷宫八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE231A0F4B5F00A3C791 /* 迷宫八卦牌@2x.png */; };
+		BC99BEBF1A0F4B5F00A3C791 /* 迷宫八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE241A0F4B5F00A3C791 /* 迷宫八卦牌img.png */; };
+		BC99BEC01A0F4B5F00A3C791 /* 金刚八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE251A0F4B5F00A3C791 /* 金刚八卦牌@2x.png */; };
+		BC99BEC11A0F4B5F00A3C791 /* 金刚八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE261A0F4B5F00A3C791 /* 金刚八卦牌img.png */; };
+		BC99BEC21A0F4B5F00A3C791 /* 铁傀王八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE271A0F4B5F00A3C791 /* 铁傀王八卦牌@2x.png */; };
+		BC99BEC31A0F4B5F00A3C791 /* 铁傀王八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE281A0F4B5F00A3C791 /* 铁傀王八卦牌img.png */; };
+		BC99BEC41A0F4B5F00A3C791 /* 雪人八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE291A0F4B5F00A3C791 /* 雪人八卦牌@2x.png */; };
+		BC99BEC51A0F4B5F00A3C791 /* 雷狱八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE2A1A0F4B5F00A3C791 /* 雷狱八卦牌@2x.png */; };
+		BC99BEC61A0F4B5F00A3C791 /* 雷狱八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE2B1A0F4B5F00A3C791 /* 雷狱八卦牌img.png */; };
+		BC99BEC71A0F4B5F00A3C791 /* 马贼八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE2C1A0F4B5F00A3C791 /* 马贼八卦牌@2x.png */; };
+		BC99BEC81A0F4B5F00A3C791 /* 马贼八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE2D1A0F4B5F00A3C791 /* 马贼八卦牌img.png */; };
+		BC99BEC91A0F4B5F00A3C791 /* 鬼杀门八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE2E1A0F4B5F00A3C791 /* 鬼杀门八卦牌@2x.png */; };
+		BC99BECA1A0F4B5F00A3C791 /* 鬼杀门八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE2F1A0F4B5F00A3C791 /* 鬼杀门八卦牌img.png */; };
+		BC99BECB1A0F4B5F00A3C791 /* 黄沙领主八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE301A0F4B5F00A3C791 /* 黄沙领主八卦牌@2x.png */; };
+		BC99BECC1A0F4B5F00A3C791 /* 黄沙领主八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE311A0F4B5F00A3C791 /* 黄沙领主八卦牌img.png */; };
+		BC99BECD1A0F4B5F00A3C791 /* 黑飞鸟八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE321A0F4B5F00A3C791 /* 黑飞鸟八卦牌@2x.png */; };
+		BC99BECE1A0F4B5F00A3C791 /* 黑飞鸟八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE331A0F4B5F00A3C791 /* 黑飞鸟八卦牌img.png */; };
+		BC99BECF1A0F4B5F00A3C791 /* 白星手镯@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE351A0F4B5F00A3C791 /* 白星手镯@2x.png */; };
+		BC99BED01A0F4B5F00A3C791 /* 赤星戒指@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE361A0F4B5F00A3C791 /* 赤星戒指@2x.png */; };
+		BC99BED11A0F4B5F00A3C791 /* 青星项链@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE371A0F4B5F00A3C791 /* 青星项链@2x.png */; };
+		BC99BED21A0F4B5F00A3C791 /* 黄星腰带@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE381A0F4B5F00A3C791 /* 黄星腰带@2x.png */; };
+		BC99BED31A0F4B5F00A3C791 /* 黑星耳环@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE391A0F4B5F00A3C791 /* 黑星耳环@2x.png */; };
+		BC99BED41A0F4B5F00A3C791 /* 大众传说@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE3B1A0F4B5F00A3C791 /* 大众传说@2x.png */; };
+		BC99BED51A0F4B5F00A3C791 /* 极限传说@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE3C1A0F4B5F00A3C791 /* 极限传说@2x.png */; };
+		BC99BED61A0F4B5F00A3C791 /* 光明无常@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE3D1A0F4B5F00A3C791 /* 光明无常@2x.png */; };
+		BC99BED71A0F4B5F00A3C791 /* 劫难无极@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE3E1A0F4B5F00A3C791 /* 劫难无极@2x.png */; };
+		BC99BED81A0F4B5F00A3C791 /* 尚方无极@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE3F1A0F4B5F00A3C791 /* 尚方无极@2x.png */; };
+		BC99BED91A0F4B5F00A3C791 /* 无形@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE401A0F4B5F00A3C791 /* 无形@2x.png */; };
+		BC99BEDA1A0F4B5F00A3C791 /* 暗黑无常@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE411A0F4B5F00A3C791 /* 暗黑无常@2x.png */; };
+		BC99BEDB1A0F4B5F00A3C791 /* 炎魂无极@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE421A0F4B5F00A3C791 /* 炎魂无极@2x.png */; };
+		BC99BEDC1A0F4B5F00A3C791 /* 生魂无极@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE431A0F4B5F00A3C791 /* 生魂无极@2x.png */; };
+		BC99BEDD1A0F4B5F00A3C791 /* 风魂无极@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE441A0F4B5F00A3C791 /* 风魂无极@2x.png */; };
+		BC99BEE01A0F55C500A3C791 /* BaguaDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC99BEDF1A0F55C500A3C791 /* BaguaDetailController.m */; };
+		BC99BEE61A0F620D00A3C791 /* WeaponDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC99BEE51A0F620D00A3C791 /* WeaponDetailController.m */; };
+		BC99BEEA1A0F6A8700A3C791 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC99BEE91A0F6A8700A3C791 /* PhotoViewController.m */; };
+		BCBC0BD71A0B9623007266C7 /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBC0BD61A0B9623007266C7 /* MyScrollView.m */; };
+		BCE7946C1A11D2BD00B20D69 /* MyFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE7946B1A11D2BD00B20D69 /* MyFooterView.m */; };
+		BCE7946E1A11EAB700B20D69 /* MyFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE7946D1A11EAB700B20D69 /* MyFooterView.xib */; };
+		BCE794711A11F33900B20D69 /* PhotoDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE794701A11F33900B20D69 /* PhotoDetailController.m */; };
+		BCE794801A123AFD00B20D69 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE7947F1A123AFD00B20D69 /* MoreViewController.m */; };
+		BCEDFA2C1A133C5000F1288A /* MyNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEDFA2B1A133C5000F1288A /* MyNavController.m */; };
+		BCEDFA2F1A133D8E00F1288A /* tabbar_bbs.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDFA2D1A133D8E00F1288A /* tabbar_bbs.png */; };
+		BCEDFA301A133D8E00F1288A /* tabbar_bbs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDFA2E1A133D8E00F1288A /* tabbar_bbs@2x.png */; };
+		BCEDFA331A1340B000F1288A /* BBSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEDFA321A1340B000F1288A /* BBSViewController.m */; };
+		BCEDFA421A1356C500F1288A /* baiqingcs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDFA3E1A1356C500F1288A /* baiqingcs@2x.png */; };
+		BCEDFA441A1356C500F1288A /* shuiyuecs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDFA401A1356C500F1288A /* shuiyuecs@2x.png */; };
+		BCEDFA481A13577A00F1288A /* baiqingzx@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDFA461A13577A00F1288A /* baiqingzx@2x.png */; };
+		BCEDFA491A13577A00F1288A /* shuiyuezx@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDFA471A13577A00F1288A /* shuiyuezx@2x.png */; };
+		BCEDFA501A1366DD00F1288A /* bqs0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDFA4A1A1366DD00F1288A /* bqs0@2x.png */; };
+		BCEDFA511A1366DD00F1288A /* bqs1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDFA4B1A1366DD00F1288A /* bqs1@2x.png */; };
+		BCEDFA521A1366DD00F1288A /* bqs2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDFA4C1A1366DD00F1288A /* bqs2@2x.png */; };
+		BCEDFA531A1366DD00F1288A /* jinhua2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDFA4D1A1366DD00F1288A /* jinhua2@2x.png */; };
+		BCEDFA541A1366DD00F1288A /* jinhua1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDFA4E1A1366DD00F1288A /* jinhua1@2x.png */; };
+		BCEDFA551A1366DD00F1288A /* jinhua0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDFA4F1A1366DD00F1288A /* jinhua0@2x.png */; };
+		BCEDFA581A1367DC00F1288A /* DtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEDFA571A1367DC00F1288A /* DtViewController.m */; };
+		BCEDFA5C1A138FCD00F1288A /* BBSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEDFA5B1A138FCD00F1288A /* BBSModel.m */; };
+		BCEE0E041A076DED0077E890 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BCEE0DF01A076DED0077E890 /* LICENSE */; };
+		BCEE0E051A076DED0077E890 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BCEE0DF11A076DED0077E890 /* README.md */; };
+		BCEE0E061A076DED0077E890 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEE0DF31A076DED0077E890 /* SDImageCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BCEE0E071A076DED0077E890 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEE0DF71A076DED0077E890 /* SDWebImageDecoder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BCEE0E081A076DED0077E890 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEE0DF91A076DED0077E890 /* SDWebImageDownloader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BCEE0E091A076DED0077E890 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEE0DFC1A076DED0077E890 /* SDWebImageManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BCEE0E0A1A076DED0077E890 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEE0DFF1A076DED0077E890 /* SDWebImagePrefetcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BCEE0E0B1A076DED0077E890 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEE0E011A076DED0077E890 /* UIButton+WebCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BCEE0E0C1A076DED0077E890 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEE0E031A076DED0077E890 /* UIImageView+WebCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BCEE0E101A076ED20077E890 /* BnsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEE0E0E1A076ED20077E890 /* BnsViewCell.m */; };
+		BCEE0E111A076ED20077E890 /* BnsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCEE0E0F1A076ED20077E890 /* BnsViewCell.xib */; };
+		BCEE0E131A0774920077E890 /* weaponx@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEE0E121A0774920077E890 /* weaponx@2x.png */; };
+		BCEE0E161A07813C0077E890 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEE0E151A07813C0077E890 /* DetailViewController.m */; };
+		BCEE0E1D1A07A1F60077E890 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEE0E181A07A1F60077E890 /* blueArrow.png */; };
+		BCEE0E1E1A07A1F60077E890 /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEE0E191A07A1F60077E890 /* blueArrow@2x.png */; };
+		BCEE0E1F1A07A1F60077E890 /* RefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEE0E1B1A07A1F60077E890 /* RefreshView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BCEE0E201A07A1F60077E890 /* RefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCEE0E1C1A07A1F60077E890 /* RefreshView.xib */; };
+		BCF10A9F1A070C9600F8F16D /* bagua@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF10A851A070C9600F8F16D /* bagua@2x.png */; };
+		BCF10AA01A070C9600F8F16D /* baixing.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF10A861A070C9600F8F16D /* baixing.png */; };
+		BCF10AA11A070C9600F8F16D /* chixing.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF10A871A070C9600F8F16D /* chixing.png */; };
+		BCF10AA21A070C9600F8F16D /* fenghun.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF10A881A070C9600F8F16D /* fenghun.png */; };
+		BCF10AA31A070C9600F8F16D /* heixing.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF10A891A070C9600F8F16D /* heixing.png */; };
+		BCF10AA41A070C9600F8F16D /* huangxing.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF10A8A1A070C9600F8F16D /* huangxing.png */; };
+		BCF10AA51A070C9600F8F16D /* jewelry@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF10A8B1A070C9600F8F16D /* jewelry@2x.png */; };
+		BCF10AA61A070C9600F8F16D /* jienan.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF10A8C1A070C9600F8F16D /* jienan.png */; };
+		BCF10AA71A070C9600F8F16D /* qingxing.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF10A8D1A070C9600F8F16D /* qingxing.png */; };
+		BCF10AB21A070C9600F8F16D /* shangfang.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF10A981A070C9600F8F16D /* shangfang.png */; };
+		BCF10AB31A070C9600F8F16D /* shenghun.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF10A991A070C9600F8F16D /* shenghun.png */; };
+		BCF10AB41A070C9600F8F16D /* weapon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF10A9A1A070C9600F8F16D /* weapon@2x.png */; };
+		BCF10AB51A070C9600F8F16D /* wuchang.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF10A9B1A070C9600F8F16D /* wuchang.png */; };
+		BCF10AB61A070C9600F8F16D /* wuxing10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF10A9C1A070C9600F8F16D /* wuxing10@2x.png */; };
+		BCF10AB71A070C9600F8F16D /* wuxing.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF10A9D1A070C9600F8F16D /* wuxing.png */; };
+		BCF10AB81A070C9600F8F16D /* yanhun.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF10A9E1A070C9600F8F16D /* yanhun.png */; };
+		BCF10AFE1A071F2900F8F16D /* source@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF10AFD1A071F2900F8F16D /* source@2x.png */; };
+		BCF10B011A07218800F8F16D /* bns@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF10AFF1A07218800F8F16D /* bns@2x.png */; };
+		BCF10B021A07218800F8F16D /* bnsx@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF10B001A07218800F8F16D /* bnsx@2x.png */; };
+		BCF10B061A07278400F8F16D /* main@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF10B051A07278400F8F16D /* main@2x.png */; };
+		BCF10B0A1A072E8C00F8F16D /* sourcex@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF10B091A072E8C00F8F16D /* sourcex@2x.png */; };
+		BCF10B941A076A9800F8F16D /* baguax@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF10B931A076A9800F8F16D /* baguax@2x.png */; };
+		BCF872EB1A02695100950D32 /* BnsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF872EA1A02695100950D32 /* BnsViewController.m */; };
+		BCFD31811A0B09C80007F384 /* bglogoblack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFD31801A0B09C80007F384 /* bglogoblack@2x.png */; };
+		BCFD31841A0B128C0007F384 /* ProViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFD31831A0B128C0007F384 /* ProViewController.m */; };
+		BCFD31881A0B149D0007F384 /* ProViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFD31861A0B149D0007F384 /* ProViewCell.m */; };
+		BCFD31891A0B149D0007F384 /* ProViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCFD31871A0B149D0007F384 /* ProViewCell.xib */; };
+		BCFD31911A0B1C0D0007F384 /* ckzy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFD318A1A0B1C0D0007F384 /* ckzy@2x.png */; };
+		BCFD31921A0B1C0D0007F384 /* jszy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFD318B1A0B1C0D0007F384 /* jszy@2x.png */; };
+		BCFD31931A0B1C0D0007F384 /* ljzy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFD318C1A0B1C0D0007F384 /* ljzy@2x.png */; };
+		BCFD31941A0B1C0D0007F384 /* lszy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFD318D1A0B1C0D0007F384 /* lszy@2x.png */; };
+		BCFD31951A0B1C0D0007F384 /* qgzy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFD318E1A0B1C0D0007F384 /* qgzy@2x.png */; };
+		BCFD31961A0B1C0D0007F384 /* qszy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFD318F1A0B1C0D0007F384 /* qszy@2x.png */; };
+		BCFD31971A0B1C0D0007F384 /* zhzy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFD31901A0B1C0D0007F384 /* zhzy@2x.png */; };
+		BCFD319F1A0B23B10007F384 /* cklogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFD31981A0B23B10007F384 /* cklogo@2x.png */; };
+		BCFD31A01A0B23B10007F384 /* jslogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFD31991A0B23B10007F384 /* jslogo@2x.png */; };
+		BCFD31A11A0B23B10007F384 /* ljlogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFD319A1A0B23B10007F384 /* ljlogo@2x.png */; };
+		BCFD31A21A0B23B10007F384 /* lslogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFD319B1A0B23B10007F384 /* lslogo@2x.png */; };
+		BCFD31A31A0B23B10007F384 /* qglogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFD319C1A0B23B10007F384 /* qglogo@2x.png */; };
+		BCFD31A41A0B23B10007F384 /* qslogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFD319D1A0B23B10007F384 /* qslogo@2x.png */; };
+		BCFD31A51A0B23B10007F384 /* zhlogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFD319E1A0B23B10007F384 /* zhlogo@2x.png */; };
+		BCFD31A91A0B2EBA0007F384 /* biwu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFD31A61A0B2EBA0007F384 /* biwu@2x.png */; };
+		BCFD31AA1A0B2EBA0007F384 /* danshua@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFD31A71A0B2EBA0007F384 /* danshua@2x.png */; };
+		BCFD31AB1A0B2EBA0007F384 /* lianzhao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFD31A81A0B2EBA0007F384 /* lianzhao@2x.png */; };
+		BCFD31AD1A0B3B150007F384 /* ProList.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCFD31AC1A0B3B150007F384 /* ProList.plist */; };
+		BCFD31B01A0B3DFA0007F384 /* ProModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFD31AF1A0B3DFA0007F384 /* ProModel.m */; };
+		BCFD31B21A0B43F70007F384 /* labelbg.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFD31B11A0B43F70007F384 /* labelbg.png */; };
+		BCFD31B81A0B493B0007F384 /* ckbglabel.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFD31B31A0B493B0007F384 /* ckbglabel.png */; };
+		BCFD31B91A0B493B0007F384 /* lsbglabel.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFD31B41A0B493B0007F384 /* lsbglabel.png */; };
+		BCFD31BA1A0B493B0007F384 /* qgbglabel.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFD31B51A0B493B0007F384 /* qgbglabel.png */; };
+		BCFD31BB1A0B493B0007F384 /* qsbglabel.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFD31B61A0B493B0007F384 /* qsbglabel.png */; };
+		BCFD31BC1A0B493B0007F384 /* zhbglabel.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFD31B71A0B493B0007F384 /* zhbglabel.png */; };
+		BCFD31BF1A0B4E990007F384 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFD31BE1A0B4E990007F384 /* ListViewController.m */; };
+		BCFF03D31A159851006464F2 /* BBSMoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF03D21A159851006464F2 /* BBSMoreController.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		BCFF03D61A159B46006464F2 /* BBSMoreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF03D51A159B46006464F2 /* BBSMoreModel.m */; };
+		BCFF03DD1A15A3F3006464F2 /* BBSMoreViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF03DB1A15A3F3006464F2 /* BBSMoreViewCell.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		BCFF03DE1A15A3F3006464F2 /* BBSMoreViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCFF03DC1A15A3F3006464F2 /* BBSMoreViewCell.xib */; };
+		BCFF03E11A15AF6D006464F2 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF03E01A15AF6D006464F2 /* Tools.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC19EB0B19F49FEB00A3762A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC19EAE319F49FEB00A3762A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC19EAEA19F49FEB00A3762A;
+			remoteInfo = BnSBang;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC0AAB991A0C79E700232357 /* Icon-120@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120@2x.png"; sourceTree = "<group>"; };
+		BC0AAB9A1A0C79E700232357 /* Icon-58@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-58@2x.png"; sourceTree = "<group>"; };
+		BC0AAB9B1A0C79E700232357 /* Icon-80@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-80@2x.png"; sourceTree = "<group>"; };
+		BC0AAB9C1A0C79E700232357 /* launchimage-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchimage-568h@2x.png"; sourceTree = "<group>"; };
+		BC0AAB9D1A0C79E700232357 /* launchimage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchimage@2x.png"; sourceTree = "<group>"; };
+		BC0AABA51A0C9AA900232357 /* btnbgimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnbgimg.png; sourceTree = "<group>"; };
+		BC0AAC241A0CF77300232357 /* baiqing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baiqing@2x.png"; sourceTree = "<group>"; };
+		BC0AAC281A0CF88B00232357 /* shuiyue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shuiyue@2x.png"; sourceTree = "<group>"; };
+		BC0B30C81A09C82300581241 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		BC0B30C91A09C82300581241 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		BC0B30CA1A09C82300581241 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		BC0B30CB1A09C82300581241 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		BC0B30CC1A09C82300581241 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		BC0B30CD1A09C82300581241 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		BC0B30CE1A09C82300581241 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		BC0B30CF1A09C82300581241 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		BC0B30D01A09C82300581241 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		BC0B30D11A09C82300581241 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		BC0B30DC1A09D19E00581241 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		BC0B30DD1A09D19E00581241 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		BC0B30DE1A09D5C200581241 /* wuchangx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wuchangx.png; sourceTree = "<group>"; };
+		BC0B30E01A0A09FC00581241 /* bgimg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgimg@2x.png"; sourceTree = "<group>"; };
+		BC0D30671A0339B50079AF06 /* BnsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BnsModel.h; sourceTree = "<group>"; };
+		BC0D30681A0339B50079AF06 /* BnsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BnsModel.m; sourceTree = "<group>"; };
+		BC0D306B1A033B980079AF06 /* HttpRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequestManager.h; sourceTree = "<group>"; };
+		BC0D306C1A033B980079AF06 /* HttpRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequestManager.m; sourceTree = "<group>"; };
+		BC145F581A14451E00732D8B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		BC145F591A14451E00732D8B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		BC145F5A1A14451E00732D8B /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		BC145F5D1A14507C00732D8B /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		BC145F5E1A14507C00732D8B /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		BC145F601A14902700732D8B /* BBSDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSDetailController.h; sourceTree = "<group>"; };
+		BC145F611A14902700732D8B /* BBSDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSDetailController.m; sourceTree = "<group>"; };
+		BC145F631A14962100732D8B /* BBSDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSDetailModel.h; sourceTree = "<group>"; };
+		BC145F641A14962100732D8B /* BBSDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSDetailModel.m; sourceTree = "<group>"; };
+		BC145F691A149D1600732D8B /* BBSDetailViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSDetailViewCell.h; sourceTree = "<group>"; };
+		BC145F6A1A149D1600732D8B /* BBSDetailViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSDetailViewCell.m; sourceTree = "<group>"; };
+		BC145F6B1A149D1600732D8B /* BBSDetailViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBSDetailViewCell.xib; sourceTree = "<group>"; };
+		BC19EAEB19F49FEB00A3762A /* 剑灵帮帮.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "剑灵帮帮.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC19EAEE19F49FEB00A3762A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC19EAF019F49FEB00A3762A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC19EAF219F49FEB00A3762A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC19EAF619F49FEB00A3762A /* 剑灵帮帮-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "剑灵帮帮-Info.plist"; sourceTree = "<group>"; };
+		BC19EAF819F49FEB00A3762A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC19EAFA19F49FEB00A3762A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC19EAFC19F49FEB00A3762A /* 剑灵帮帮-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "剑灵帮帮-Prefix.pch"; sourceTree = "<group>"; };
+		BC19EAFD19F49FEB00A3762A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC19EAFE19F49FEB00A3762A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC19EB0019F49FEB00A3762A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC19EB0619F49FEB00A3762A /* 剑灵帮帮Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "剑灵帮帮Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC19EB0719F49FEB00A3762A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BC19EB0F19F49FEB00A3762A /* 剑灵帮帮Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "剑灵帮帮Tests-Info.plist"; sourceTree = "<group>"; };
+		BC19EB1119F49FEB00A3762A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC19EB1319F49FEB00A3762A /* BnSBangTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BnSBangTests.m; sourceTree = "<group>"; };
+		BC19EB2019F4A05A00A3762A /* MyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
+		BC19EB2119F4A05A00A3762A /* MyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
+		BC19EB2319F4A16B00A3762A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		BC19EB2419F4A16B00A3762A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		BC19EB2819F4A29D00A3762A /* BaguaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaguaViewController.h; sourceTree = "<group>"; };
+		BC19EB2919F4A29D00A3762A /* BaguaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaguaViewController.m; sourceTree = "<group>"; };
+		BC19EB3219F4B04900A3762A /* SrcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SrcViewController.h; sourceTree = "<group>"; };
+		BC19EB3319F4B04900A3762A /* SrcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SrcViewController.m; sourceTree = "<group>"; };
+		BC19EB3519F4B47300A3762A /* image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image@2x.png"; sourceTree = "<group>"; };
+		BC19EB3719F4B49800A3762A /* imagex@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imagex@2x.png"; sourceTree = "<group>"; };
+		BC19EB4F19F4BEC200A3762A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		BC38EB6D1A0A27E0001834A5 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		BC38EB6E1A0A27E0001834A5 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		BC38EB701A0A292A001834A5 /* EquipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquipViewController.h; sourceTree = "<group>"; };
+		BC38EB711A0A292A001834A5 /* EquipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquipViewController.m; sourceTree = "<group>"; };
+		BC38EB741A0A36AE001834A5 /* tabbar_bns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_bns.png; sourceTree = "<group>"; };
+		BC38EB751A0A36AE001834A5 /* tabbar_bns@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_bns@2x.png"; sourceTree = "<group>"; };
+		BC38EB761A0A36AE001834A5 /* tabbar_gl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_gl.png; sourceTree = "<group>"; };
+		BC38EB771A0A36AE001834A5 /* tabbar_gl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_gl@2x.png"; sourceTree = "<group>"; };
+		BC38EB781A0A36AE001834A5 /* tabbar_pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_pic.png; sourceTree = "<group>"; };
+		BC38EB791A0A36AE001834A5 /* tabbar_pic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_pic@2x.png"; sourceTree = "<group>"; };
+		BC38EB7A1A0A36AE001834A5 /* tabbar_video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_video.png; sourceTree = "<group>"; };
+		BC38EB7B1A0A36AE001834A5 /* tabbar_video@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_video@2x.png"; sourceTree = "<group>"; };
+		BC38EB841A0A5128001834A5 /* jewelryimg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jewelryimg@2x.png"; sourceTree = "<group>"; };
+		BC38EB851A0A5128001834A5 /* weaponimg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weaponimg@2x.png"; sourceTree = "<group>"; };
+		BC38EB881A0A5134001834A5 /* baguaimg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baguaimg@2x.png"; sourceTree = "<group>"; };
+		BC7C38721A10A04E00522D94 /* CollectViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectViewCell.h; sourceTree = "<group>"; };
+		BC7C38731A10A04E00522D94 /* CollectViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectViewCell.m; sourceTree = "<group>"; };
+		BC7C38751A10A06400522D94 /* CollectLayOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectLayOut.h; sourceTree = "<group>"; };
+		BC7C38761A10A06400522D94 /* CollectLayOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectLayOut.m; sourceTree = "<group>"; };
+		BC7C38781A10A08400522D94 /* ImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageModel.h; sourceTree = "<group>"; };
+		BC7C38791A10A08400522D94 /* ImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageModel.m; sourceTree = "<group>"; };
+		BC98E8F11A08CD0300261F9E /* bglogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bglogo@2x.png"; sourceTree = "<group>"; };
+		BC98E8F31A08D13600261F9E /* JewelryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JewelryViewController.h; sourceTree = "<group>"; };
+		BC98E8F41A08D13600261F9E /* JewelryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JewelryViewController.m; sourceTree = "<group>"; };
+		BC98E8F61A08D82700261F9E /* bgjewelry@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgjewelry@2x.png"; sourceTree = "<group>"; };
+		BC98E8F81A08D9D200261F9E /* bgweapon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgweapon@2x.png"; sourceTree = "<group>"; };
+		BC98E8FE1A08DC6500261F9E /* bgbagua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgbagua.png; sourceTree = "<group>"; };
+		BC98E9001A08EAB200261F9E /* WeaponList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WeaponList.plist; sourceTree = "<group>"; };
+		BC98E9021A08F0B200261F9E /* MainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainModel.h; sourceTree = "<group>"; };
+		BC98E9031A08F0B200261F9E /* MainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainModel.m; sourceTree = "<group>"; };
+		BC98E9051A08F10300261F9E /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		BC98E9061A08F10300261F9E /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		BC98E9081A08F6A100261F9E /* MainViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewCell.h; sourceTree = "<group>"; };
+		BC98E9091A08F6A100261F9E /* MainViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewCell.m; sourceTree = "<group>"; };
+		BC98E90A1A08F6A100261F9E /* MainViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewCell.xib; sourceTree = "<group>"; };
+		BC98E90D1A08FC7400261F9E /* JewelryList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JewelryList.plist; sourceTree = "<group>"; };
+		BC98E9101A09065D00261F9E /* bqcq@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bqcq@2x.png"; path = "../../image/bagua/bqcq@2x.png"; sourceTree = "<group>"; };
+		BC98E9111A09065D00261F9E /* 白青苍穹八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "白青苍穹八卦牌img.png"; path = "../../image/bagua/白青苍穹八卦牌img.png"; sourceTree = "<group>"; };
+		BC98E9121A09065D00261F9E /* bqdd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bqdd@2x.png"; path = "../../image/bagua/bqdd@2x.png"; sourceTree = "<group>"; };
+		BC98E9131A09065D00261F9E /* 白青大地八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "白青大地八卦牌img.png"; path = "../../image/bagua/白青大地八卦牌img.png"; sourceTree = "<group>"; };
+		BC98E9141A09065D00261F9E /* shexie@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "shexie@2x.png"; path = "../../image/bagua/shexie@2x.png"; sourceTree = "<group>"; };
+		BC98E9151A09065D00261F9E /* 蛇蝎帝王八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "蛇蝎帝王八卦牌img.png"; path = "../../image/bagua/蛇蝎帝王八卦牌img.png"; sourceTree = "<group>"; };
+		BC98E9161A09065D00261F9E /* tianlong@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tianlong@2x.png"; path = "../../image/bagua/tianlong@2x.png"; sourceTree = "<group>"; };
+		BC98E9171A09065D00261F9E /* 天龙八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "天龙八卦牌img.png"; path = "../../image/bagua/天龙八卦牌img.png"; sourceTree = "<group>"; };
+		BC98E9181A09065D00261F9E /* xiuluo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "xiuluo@2x.png"; path = "../../image/bagua/xiuluo@2x.png"; sourceTree = "<group>"; };
+		BC98E9191A09065D00261F9E /* 修罗八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "修罗八卦牌img.png"; path = "../../image/bagua/修罗八卦牌img.png"; sourceTree = "<group>"; };
+		BC98E91A1A09065D00261F9E /* xueren@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "xueren@2x.png"; path = "../../image/bagua/xueren@2x.png"; sourceTree = "<group>"; };
+		BC98E91B1A09065D00261F9E /* 雪人八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "雪人八卦牌img.png"; path = "../../image/bagua/雪人八卦牌img.png"; sourceTree = "<group>"; };
+		BC98E9281A0906B200261F9E /* BaguaList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BaguaList.plist; sourceTree = "<group>"; };
+		BC99BDA41A0F2B5F00A3C791 /* dazhong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dazhong.png; path = ../../dazhong.png; sourceTree = "<group>"; };
+		BC99BDA51A0F2B5F00A3C791 /* jixian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jixian.png; path = ../../jixian.png; sourceTree = "<group>"; };
+		BC99BDAA1A0F4B5F00A3C791 /* ahl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ahl@2x.png"; sourceTree = "<group>"; };
+		BC99BDAB1A0F4B5F00A3C791 /* bl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bl@2x.png"; sourceTree = "<group>"; };
+		BC99BDAC1A0F4B5F00A3C791 /* bp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bp@2x.png"; sourceTree = "<group>"; };
+		BC99BDAD1A0F4B5F00A3C791 /* ch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ch@2x.png"; sourceTree = "<group>"; };
+		BC99BDAE1A0F4B5F00A3C791 /* cw@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cw@2x.png"; sourceTree = "<group>"; };
+		BC99BDAF1A0F4B5F00A3C791 /* dgj@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dgj@2x.png"; sourceTree = "<group>"; };
+		BC99BDB01A0F4B5F00A3C791 /* dmhj@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dmhj@2x.png"; sourceTree = "<group>"; };
+		BC99BDB11A0F4B5F00A3C791 /* dmxs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dmxs@2x.png"; sourceTree = "<group>"; };
+		BC99BDB21A0F4B5F00A3C791 /* ds@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ds@2x.png"; sourceTree = "<group>"; };
+		BC99BDB31A0F4B5F00A3C791 /* dus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dus@2x.png"; sourceTree = "<group>"; };
+		BC99BDB41A0F4B5F00A3C791 /* dw@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dw@2x.png"; sourceTree = "<group>"; };
+		BC99BDB51A0F4B5F00A3C791 /* dz@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dz@2x.png"; sourceTree = "<group>"; };
+		BC99BDB61A0F4B5F00A3C791 /* dzs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzs@2x.png"; sourceTree = "<group>"; };
+		BC99BDB71A0F4B5F00A3C791 /* gsm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gsm@2x.png"; sourceTree = "<group>"; };
+		BC99BDB81A0F4B5F00A3C791 /* gssg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gssg@2x.png"; sourceTree = "<group>"; };
+		BC99BDB91A0F4B5F00A3C791 /* hfn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hfn@2x.png"; sourceTree = "<group>"; };
+		BC99BDBA1A0F4B5F00A3C791 /* hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hl@2x.png"; sourceTree = "<group>"; };
+		BC99BDBB1A0F4B5F00A3C791 /* hs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hs@2x.png"; sourceTree = "<group>"; };
+		BC99BDBC1A0F4B5F00A3C791 /* hslz@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hslz@2x.png"; sourceTree = "<group>"; };
+		BC99BDBD1A0F4B5F00A3C791 /* hus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hus@2x.png"; sourceTree = "<group>"; };
+		BC99BDBE1A0F4B5F00A3C791 /* jg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jg@2x.png"; sourceTree = "<group>"; };
+		BC99BDBF1A0F4B5F00A3C791 /* jy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jy@2x.png"; sourceTree = "<group>"; };
+		BC99BDC01A0F4B5F00A3C791 /* ls@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ls@2x.png"; sourceTree = "<group>"; };
+		BC99BDC11A0F4B5F00A3C791 /* lwq@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lwq@2x.png"; sourceTree = "<group>"; };
+		BC99BDC21A0F4B5F00A3C791 /* ly@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ly@2x.png"; sourceTree = "<group>"; };
+		BC99BDC31A0F4B5F00A3C791 /* mg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mg@2x.png"; sourceTree = "<group>"; };
+		BC99BDC41A0F4B5F00A3C791 /* mz@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mz@2x.png"; sourceTree = "<group>"; };
+		BC99BDC51A0F4B5F00A3C791 /* nw@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nw@2x.png"; sourceTree = "<group>"; };
+		BC99BDC61A0F4B5F00A3C791 /* qh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qh@2x.png"; sourceTree = "<group>"; };
+		BC99BDC71A0F4B5F00A3C791 /* qtm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qtm@2x.png"; sourceTree = "<group>"; };
+		BC99BDC81A0F4B5F00A3C791 /* ry@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ry@2x.png"; sourceTree = "<group>"; };
+		BC99BDC91A0F4B5F00A3C791 /* sldylz@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sldylz@2x.png"; sourceTree = "<group>"; };
+		BC99BDCA1A0F4B5F00A3C791 /* sypybw@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sypybw@2x.png"; sourceTree = "<group>"; };
+		BC99BDCB1A0F4B5F00A3C791 /* sypyhj@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sypyhj@2x.png"; sourceTree = "<group>"; };
+		BC99BDCC1A0F4B5F00A3C791 /* tkw@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tkw@2x.png"; sourceTree = "<group>"; };
+		BC99BDCD1A0F4B5F00A3C791 /* tz@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tz@2x.png"; sourceTree = "<group>"; };
+		BC99BDCE1A0F4B5F00A3C791 /* wh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wh@2x.png"; sourceTree = "<group>"; };
+		BC99BDCF1A0F4B5F00A3C791 /* wk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wk@2x.png"; sourceTree = "<group>"; };
+		BC99BDD01A0F4B5F00A3C791 /* ws@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ws@2x.png"; sourceTree = "<group>"; };
+		BC99BDD11A0F4B5F00A3C791 /* wy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wy@2x.png"; sourceTree = "<group>"; };
+		BC99BDD21A0F4B5F00A3C791 /* xlsw@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xlsw@2x.png"; sourceTree = "<group>"; };
+		BC99BDD31A0F4B5F00A3C791 /* xz@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xz@2x.png"; sourceTree = "<group>"; };
+		BC99BDD41A0F4B5F00A3C791 /* ybd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ybd@2x.png"; sourceTree = "<group>"; };
+		BC99BDD51A0F4B5F00A3C791 /* yllyx@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yllyx@2x.png"; sourceTree = "<group>"; };
+		BC99BDD61A0F4B5F00A3C791 /* 万魂八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "万魂八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDD71A0F4B5F00A3C791 /* 万魂八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "万魂八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDD81A0F4B5F00A3C791 /* 了无情八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "了无情八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDD91A0F4B5F00A3C791 /* 了无情八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "了无情八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDDA1A0F4B5F00A3C791 /* 佣兵队八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "佣兵队八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDDB1A0F4B5F00A3C791 /* 佣兵队八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "佣兵队八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDDC1A0F4B5F00A3C791 /* 修罗八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "修罗八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDDD1A0F4B5F00A3C791 /* 冰魄八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "冰魄八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDDE1A0F4B5F00A3C791 /* 冰魄八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "冰魄八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDDF1A0F4B5F00A3C791 /* 千魂八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "千魂八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDE01A0F4B5F00A3C791 /* 千魂八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "千魂八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDE11A0F4B5F00A3C791 /* 大漠侠士八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大漠侠士八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDE21A0F4B5F00A3C791 /* 大漠侠士八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大漠侠士八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDE31A0F4B5F00A3C791 /* 大漠豪杰八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大漠豪杰八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDE41A0F4B5F00A3C791 /* 大漠豪杰八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大漠豪杰八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDE51A0F4B5F00A3C791 /* 大王八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大王八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDE61A0F4B5F00A3C791 /* 大王八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大王八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDE71A0F4B5F00A3C791 /* 天照八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "天照八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDE81A0F4B5F00A3C791 /* 天照八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "天照八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDE91A0F4B5F00A3C791 /* 天龙八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "天龙八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDEA1A0F4B5F00A3C791 /* 失落的永灵族八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "失落的永灵族八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDEB1A0F4B5F00A3C791 /* 失落的永灵族八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "失落的永灵族八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDEC1A0F4B5F00A3C791 /* 女王八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "女王八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDED1A0F4B5F00A3C791 /* 女王八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "女王八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDEE1A0F4B5F00A3C791 /* 巨岩八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "巨岩八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDEF1A0F4B5F00A3C791 /* 巨岩八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "巨岩八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDF01A0F4B5F00A3C791 /* 巴勒八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "巴勒八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDF11A0F4B5F00A3C791 /* 巴勒八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "巴勒八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDF21A0F4B5F00A3C791 /* 帝国军八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "帝国军八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDF31A0F4B5F00A3C791 /* 帝国军八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "帝国军八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDF41A0F4B5F00A3C791 /* 幻术八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "幻术八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDF51A0F4B5F00A3C791 /* 幻术八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "幻术八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDF61A0F4B5F00A3C791 /* 彩虹八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "彩虹八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDF71A0F4B5F00A3C791 /* 彩虹八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "彩虹八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDF81A0F4B5F00A3C791 /* 御龙林英雄八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "御龙林英雄八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDF91A0F4B5F00A3C791 /* 御龙林英雄八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "御龙林英雄八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDFA1A0F4B5F00A3C791 /* 悟空八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "悟空八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDFB1A0F4B5F00A3C791 /* 悟空八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "悟空八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDFC1A0F4B5F00A3C791 /* 擎天盟八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "擎天盟八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDFD1A0F4B5F00A3C791 /* 擎天盟八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "擎天盟八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDFE1A0F4B5F00A3C791 /* 斗战八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "斗战八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDFF1A0F4B5F00A3C791 /* 斗战八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "斗战八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE001A0F4B5F00A3C791 /* 斗战圣八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "斗战圣八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE011A0F4B5F00A3C791 /* 斗战圣八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "斗战圣八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE021A0F4B5F00A3C791 /* 斗神八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "斗神八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE031A0F4B5F00A3C791 /* 斗神八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "斗神八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE041A0F4B5F00A3C791 /* 无影八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "无影八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE051A0F4B5F00A3C791 /* 无影八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "无影八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE061A0F4B5F00A3C791 /* 日月八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日月八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE071A0F4B5F00A3C791 /* 日月八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日月八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE081A0F4B5F00A3C791 /* 暗黑龙八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "暗黑龙八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE091A0F4B5F00A3C791 /* 暗黑龙八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "暗黑龙八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE0A1A0F4B5F00A3C791 /* 武神八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "武神八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE0B1A0F4B5F00A3C791 /* 武神八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "武神八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE0C1A0F4B5F00A3C791 /* 毒蛇八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "毒蛇八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE0D1A0F4B5F00A3C791 /* 毒蛇八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "毒蛇八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE0E1A0F4B5F00A3C791 /* 水月平原比武八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "水月平原比武八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE0F1A0F4B5F00A3C791 /* 水月平原比武八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "水月平原比武八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE101A0F4B5F00A3C791 /* 水月平原豪杰八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "水月平原豪杰八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE111A0F4B5F00A3C791 /* 水月平原豪杰八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "水月平原豪杰八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE121A0F4B5F00A3C791 /* 海蛇八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "海蛇八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE131A0F4B5F00A3C791 /* 海蛇八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "海蛇八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE141A0F4B5F00A3C791 /* 灵兽八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "灵兽八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE151A0F4B5F00A3C791 /* 灵兽八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "灵兽八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE161A0F4B5F00A3C791 /* 白青大地八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白青大地八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE171A0F4B5F00A3C791 /* 白青苍穹八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白青苍穹八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE181A0F4B5F00A3C791 /* 盖世神功八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "盖世神功八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE191A0F4B5F00A3C791 /* 盖世神功八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "盖世神功八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE1A1A0F4B5F00A3C791 /* 红莲八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "红莲八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE1B1A0F4B5F00A3C791 /* 红莲八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "红莲八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE1C1A0F4B5F00A3C791 /* 蛇蝎帝王八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蛇蝎帝王八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE1D1A0F4B5F00A3C791 /* 血浪鲨湾八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "血浪鲨湾八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE1E1A0F4B5F00A3C791 /* 血浪鲨湾八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "血浪鲨湾八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE1F1A0F4B5F00A3C791 /* 血猪八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "血猪八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE201A0F4B5F00A3C791 /* 血猪八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "血猪八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE211A0F4B5F00A3C791 /* 赤尾八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "赤尾八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE221A0F4B5F00A3C791 /* 赤尾八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "赤尾八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE231A0F4B5F00A3C791 /* 迷宫八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "迷宫八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE241A0F4B5F00A3C791 /* 迷宫八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "迷宫八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE251A0F4B5F00A3C791 /* 金刚八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "金刚八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE261A0F4B5F00A3C791 /* 金刚八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "金刚八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE271A0F4B5F00A3C791 /* 铁傀王八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "铁傀王八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE281A0F4B5F00A3C791 /* 铁傀王八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "铁傀王八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE291A0F4B5F00A3C791 /* 雪人八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雪人八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE2A1A0F4B5F00A3C791 /* 雷狱八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雷狱八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE2B1A0F4B5F00A3C791 /* 雷狱八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雷狱八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE2C1A0F4B5F00A3C791 /* 马贼八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "马贼八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE2D1A0F4B5F00A3C791 /* 马贼八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "马贼八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE2E1A0F4B5F00A3C791 /* 鬼杀门八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "鬼杀门八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE2F1A0F4B5F00A3C791 /* 鬼杀门八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "鬼杀门八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE301A0F4B5F00A3C791 /* 黄沙领主八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黄沙领主八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE311A0F4B5F00A3C791 /* 黄沙领主八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黄沙领主八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE321A0F4B5F00A3C791 /* 黑飞鸟八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黑飞鸟八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE331A0F4B5F00A3C791 /* 黑飞鸟八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黑飞鸟八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE351A0F4B5F00A3C791 /* 白星手镯@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白星手镯@2x.png"; sourceTree = "<group>"; };
+		BC99BE361A0F4B5F00A3C791 /* 赤星戒指@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "赤星戒指@2x.png"; sourceTree = "<group>"; };
+		BC99BE371A0F4B5F00A3C791 /* 青星项链@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青星项链@2x.png"; sourceTree = "<group>"; };
+		BC99BE381A0F4B5F00A3C791 /* 黄星腰带@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黄星腰带@2x.png"; sourceTree = "<group>"; };
+		BC99BE391A0F4B5F00A3C791 /* 黑星耳环@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黑星耳环@2x.png"; sourceTree = "<group>"; };
+		BC99BE3B1A0F4B5F00A3C791 /* 大众传说@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大众传说@2x.png"; sourceTree = "<group>"; };
+		BC99BE3C1A0F4B5F00A3C791 /* 极限传说@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "极限传说@2x.png"; sourceTree = "<group>"; };
+		BC99BE3D1A0F4B5F00A3C791 /* 光明无常@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "光明无常@2x.png"; sourceTree = "<group>"; };
+		BC99BE3E1A0F4B5F00A3C791 /* 劫难无极@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "劫难无极@2x.png"; sourceTree = "<group>"; };
+		BC99BE3F1A0F4B5F00A3C791 /* 尚方无极@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "尚方无极@2x.png"; sourceTree = "<group>"; };
+		BC99BE401A0F4B5F00A3C791 /* 无形@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "无形@2x.png"; sourceTree = "<group>"; };
+		BC99BE411A0F4B5F00A3C791 /* 暗黑无常@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "暗黑无常@2x.png"; sourceTree = "<group>"; };
+		BC99BE421A0F4B5F00A3C791 /* 炎魂无极@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "炎魂无极@2x.png"; sourceTree = "<group>"; };
+		BC99BE431A0F4B5F00A3C791 /* 生魂无极@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "生魂无极@2x.png"; sourceTree = "<group>"; };
+		BC99BE441A0F4B5F00A3C791 /* 风魂无极@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "风魂无极@2x.png"; sourceTree = "<group>"; };
+		BC99BEDE1A0F55C500A3C791 /* BaguaDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaguaDetailController.h; sourceTree = "<group>"; };
+		BC99BEDF1A0F55C500A3C791 /* BaguaDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaguaDetailController.m; sourceTree = "<group>"; };
+		BC99BEE41A0F620D00A3C791 /* WeaponDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeaponDetailController.h; sourceTree = "<group>"; };
+		BC99BEE51A0F620D00A3C791 /* WeaponDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeaponDetailController.m; sourceTree = "<group>"; };
+		BC99BEE81A0F6A8700A3C791 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		BC99BEE91A0F6A8700A3C791 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		BCBC0BD51A0B9623007266C7 /* MyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		BCBC0BD61A0B9623007266C7 /* MyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
+		BCE7946A1A11D2BD00B20D69 /* MyFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFooterView.h; sourceTree = "<group>"; };
+		BCE7946B1A11D2BD00B20D69 /* MyFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFooterView.m; sourceTree = "<group>"; };
+		BCE7946D1A11EAB700B20D69 /* MyFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyFooterView.xib; sourceTree = "<group>"; };
+		BCE7946F1A11F33800B20D69 /* PhotoDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoDetailController.h; sourceTree = "<group>"; };
+		BCE794701A11F33900B20D69 /* PhotoDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDetailController.m; sourceTree = "<group>"; };
+		BCE7947E1A123AFD00B20D69 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		BCE7947F1A123AFD00B20D69 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		BCEDFA2A1A133C5000F1288A /* MyNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavController.h; sourceTree = "<group>"; };
+		BCEDFA2B1A133C5000F1288A /* MyNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavController.m; sourceTree = "<group>"; };
+		BCEDFA2D1A133D8E00F1288A /* tabbar_bbs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_bbs.png; sourceTree = "<group>"; };
+		BCEDFA2E1A133D8E00F1288A /* tabbar_bbs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_bbs@2x.png"; sourceTree = "<group>"; };
+		BCEDFA311A1340B000F1288A /* BBSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSViewController.h; sourceTree = "<group>"; };
+		BCEDFA321A1340B000F1288A /* BBSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSViewController.m; sourceTree = "<group>"; };
+		BCEDFA3E1A1356C500F1288A /* baiqingcs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baiqingcs@2x.png"; sourceTree = "<group>"; };
+		BCEDFA401A1356C500F1288A /* shuiyuecs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shuiyuecs@2x.png"; sourceTree = "<group>"; };
+		BCEDFA461A13577A00F1288A /* baiqingzx@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baiqingzx@2x.png"; sourceTree = "<group>"; };
+		BCEDFA471A13577A00F1288A /* shuiyuezx@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shuiyuezx@2x.png"; sourceTree = "<group>"; };
+		BCEDFA4A1A1366DD00F1288A /* bqs0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bqs0@2x.png"; sourceTree = "<group>"; };
+		BCEDFA4B1A1366DD00F1288A /* bqs1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bqs1@2x.png"; sourceTree = "<group>"; };
+		BCEDFA4C1A1366DD00F1288A /* bqs2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bqs2@2x.png"; sourceTree = "<group>"; };
+		BCEDFA4D1A1366DD00F1288A /* jinhua2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jinhua2@2x.png"; sourceTree = "<group>"; };
+		BCEDFA4E1A1366DD00F1288A /* jinhua1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jinhua1@2x.png"; sourceTree = "<group>"; };
+		BCEDFA4F1A1366DD00F1288A /* jinhua0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jinhua0@2x.png"; sourceTree = "<group>"; };
+		BCEDFA561A1367DC00F1288A /* DtViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DtViewController.h; sourceTree = "<group>"; };
+		BCEDFA571A1367DC00F1288A /* DtViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DtViewController.m; sourceTree = "<group>"; };
+		BCEDFA5A1A138FCD00F1288A /* BBSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSModel.h; sourceTree = "<group>"; };
+		BCEDFA5B1A138FCD00F1288A /* BBSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSModel.m; sourceTree = "<group>"; };
+		BCEE0DF01A076DED0077E890 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BCEE0DF11A076DED0077E890 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		BCEE0DF21A076DED0077E890 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		BCEE0DF31A076DED0077E890 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		BCEE0DF41A076DED0077E890 /* SDImageCacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCacheDelegate.h; sourceTree = "<group>"; };
+		BCEE0DF51A076DED0077E890 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		BCEE0DF61A076DED0077E890 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		BCEE0DF71A076DED0077E890 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		BCEE0DF81A076DED0077E890 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		BCEE0DF91A076DED0077E890 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		BCEE0DFA1A076DED0077E890 /* SDWebImageDownloaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderDelegate.h; sourceTree = "<group>"; };
+		BCEE0DFB1A076DED0077E890 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		BCEE0DFC1A076DED0077E890 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		BCEE0DFD1A076DED0077E890 /* SDWebImageManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManagerDelegate.h; sourceTree = "<group>"; };
+		BCEE0DFE1A076DED0077E890 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		BCEE0DFF1A076DED0077E890 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		BCEE0E001A076DED0077E890 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		BCEE0E011A076DED0077E890 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		BCEE0E021A076DED0077E890 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		BCEE0E031A076DED0077E890 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		BCEE0E0D1A076ED20077E890 /* BnsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BnsViewCell.h; sourceTree = "<group>"; };
+		BCEE0E0E1A076ED20077E890 /* BnsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BnsViewCell.m; sourceTree = "<group>"; };
+		BCEE0E0F1A076ED20077E890 /* BnsViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BnsViewCell.xib; sourceTree = "<group>"; };
+		BCEE0E121A0774920077E890 /* weaponx@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weaponx@2x.png"; sourceTree = "<group>"; };
+		BCEE0E141A07813C0077E890 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		BCEE0E151A07813C0077E890 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		BCEE0E181A07A1F60077E890 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		BCEE0E191A07A1F60077E890 /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
+		BCEE0E1A1A07A1F60077E890 /* RefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshView.h; sourceTree = "<group>"; };
+		BCEE0E1B1A07A1F60077E890 /* RefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshView.m; sourceTree = "<group>"; };
+		BCEE0E1C1A07A1F60077E890 /* RefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RefreshView.xib; sourceTree = "<group>"; };
+		BCF10A851A070C9600F8F16D /* bagua@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bagua@2x.png"; sourceTree = "<group>"; };
+		BCF10A861A070C9600F8F16D /* baixing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baixing.png; sourceTree = "<group>"; };
+		BCF10A871A070C9600F8F16D /* chixing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chixing.png; sourceTree = "<group>"; };
+		BCF10A881A070C9600F8F16D /* fenghun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fenghun.png; sourceTree = "<group>"; };
+		BCF10A891A070C9600F8F16D /* heixing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heixing.png; sourceTree = "<group>"; };
+		BCF10A8A1A070C9600F8F16D /* huangxing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = huangxing.png; sourceTree = "<group>"; };
+		BCF10A8B1A070C9600F8F16D /* jewelry@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jewelry@2x.png"; sourceTree = "<group>"; };
+		BCF10A8C1A070C9600F8F16D /* jienan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jienan.png; sourceTree = "<group>"; };
+		BCF10A8D1A070C9600F8F16D /* qingxing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qingxing.png; sourceTree = "<group>"; };
+		BCF10A981A070C9600F8F16D /* shangfang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shangfang.png; sourceTree = "<group>"; };
+		BCF10A991A070C9600F8F16D /* shenghun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shenghun.png; sourceTree = "<group>"; };
+		BCF10A9A1A070C9600F8F16D /* weapon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weapon@2x.png"; sourceTree = "<group>"; };
+		BCF10A9B1A070C9600F8F16D /* wuchang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wuchang.png; sourceTree = "<group>"; };
+		BCF10A9C1A070C9600F8F16D /* wuxing10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wuxing10@2x.png"; sourceTree = "<group>"; };
+		BCF10A9D1A070C9600F8F16D /* wuxing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wuxing.png; sourceTree = "<group>"; };
+		BCF10A9E1A070C9600F8F16D /* yanhun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yanhun.png; sourceTree = "<group>"; };
+		BCF10AFD1A071F2900F8F16D /* source@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "source@2x.png"; sourceTree = "<group>"; };
+		BCF10AFF1A07218800F8F16D /* bns@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bns@2x.png"; sourceTree = "<group>"; };
+		BCF10B001A07218800F8F16D /* bnsx@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bnsx@2x.png"; sourceTree = "<group>"; };
+		BCF10B051A07278400F8F16D /* main@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main@2x.png"; sourceTree = "<group>"; };
+		BCF10B091A072E8C00F8F16D /* sourcex@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sourcex@2x.png"; sourceTree = "<group>"; };
+		BCF10B931A076A9800F8F16D /* baguax@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baguax@2x.png"; sourceTree = "<group>"; };
+		BCF872E91A02695100950D32 /* BnsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BnsViewController.h; sourceTree = "<group>"; };
+		BCF872EA1A02695100950D32 /* BnsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BnsViewController.m; sourceTree = "<group>"; };
+		BCFD31801A0B09C80007F384 /* bglogoblack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bglogoblack@2x.png"; sourceTree = "<group>"; };
+		BCFD31821A0B128C0007F384 /* ProViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProViewController.h; sourceTree = "<group>"; };
+		BCFD31831A0B128C0007F384 /* ProViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProViewController.m; sourceTree = "<group>"; };
+		BCFD31851A0B149D0007F384 /* ProViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProViewCell.h; sourceTree = "<group>"; };
+		BCFD31861A0B149D0007F384 /* ProViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProViewCell.m; sourceTree = "<group>"; };
+		BCFD31871A0B149D0007F384 /* ProViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProViewCell.xib; sourceTree = "<group>"; };
+		BCFD318A1A0B1C0D0007F384 /* ckzy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ckzy@2x.png"; sourceTree = "<group>"; };
+		BCFD318B1A0B1C0D0007F384 /* jszy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jszy@2x.png"; sourceTree = "<group>"; };
+		BCFD318C1A0B1C0D0007F384 /* ljzy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ljzy@2x.png"; sourceTree = "<group>"; };
+		BCFD318D1A0B1C0D0007F384 /* lszy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lszy@2x.png"; sourceTree = "<group>"; };
+		BCFD318E1A0B1C0D0007F384 /* qgzy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qgzy@2x.png"; sourceTree = "<group>"; };
+		BCFD318F1A0B1C0D0007F384 /* qszy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qszy@2x.png"; sourceTree = "<group>"; };
+		BCFD31901A0B1C0D0007F384 /* zhzy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zhzy@2x.png"; sourceTree = "<group>"; };
+		BCFD31981A0B23B10007F384 /* cklogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cklogo@2x.png"; sourceTree = "<group>"; };
+		BCFD31991A0B23B10007F384 /* jslogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jslogo@2x.png"; sourceTree = "<group>"; };
+		BCFD319A1A0B23B10007F384 /* ljlogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ljlogo@2x.png"; sourceTree = "<group>"; };
+		BCFD319B1A0B23B10007F384 /* lslogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lslogo@2x.png"; sourceTree = "<group>"; };
+		BCFD319C1A0B23B10007F384 /* qglogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qglogo@2x.png"; sourceTree = "<group>"; };
+		BCFD319D1A0B23B10007F384 /* qslogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qslogo@2x.png"; sourceTree = "<group>"; };
+		BCFD319E1A0B23B10007F384 /* zhlogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zhlogo@2x.png"; sourceTree = "<group>"; };
+		BCFD31A61A0B2EBA0007F384 /* biwu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "biwu@2x.png"; sourceTree = "<group>"; };
+		BCFD31A71A0B2EBA0007F384 /* danshua@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "danshua@2x.png"; sourceTree = "<group>"; };
+		BCFD31A81A0B2EBA0007F384 /* lianzhao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lianzhao@2x.png"; sourceTree = "<group>"; };
+		BCFD31AC1A0B3B150007F384 /* ProList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ProList.plist; sourceTree = "<group>"; };
+		BCFD31AE1A0B3DFA0007F384 /* ProModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProModel.h; sourceTree = "<group>"; };
+		BCFD31AF1A0B3DFA0007F384 /* ProModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProModel.m; sourceTree = "<group>"; };
+		BCFD31B11A0B43F70007F384 /* labelbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = labelbg.png; sourceTree = "<group>"; };
+		BCFD31B31A0B493B0007F384 /* ckbglabel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ckbglabel.png; sourceTree = "<group>"; };
+		BCFD31B41A0B493B0007F384 /* lsbglabel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lsbglabel.png; sourceTree = "<group>"; };
+		BCFD31B51A0B493B0007F384 /* qgbglabel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qgbglabel.png; sourceTree = "<group>"; };
+		BCFD31B61A0B493B0007F384 /* qsbglabel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qsbglabel.png; sourceTree = "<group>"; };
+		BCFD31B71A0B493B0007F384 /* zhbglabel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhbglabel.png; sourceTree = "<group>"; };
+		BCFD31BD1A0B4E990007F384 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		BCFD31BE1A0B4E990007F384 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		BCFF03D11A159851006464F2 /* BBSMoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSMoreController.h; sourceTree = "<group>"; };
+		BCFF03D21A159851006464F2 /* BBSMoreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSMoreController.m; sourceTree = "<group>"; };
+		BCFF03D41A159B46006464F2 /* BBSMoreModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSMoreModel.h; sourceTree = "<group>"; };
+		BCFF03D51A159B46006464F2 /* BBSMoreModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSMoreModel.m; sourceTree = "<group>"; };
+		BCFF03DA1A15A3F3006464F2 /* BBSMoreViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSMoreViewCell.h; sourceTree = "<group>"; };
+		BCFF03DB1A15A3F3006464F2 /* BBSMoreViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSMoreViewCell.m; sourceTree = "<group>"; };
+		BCFF03DC1A15A3F3006464F2 /* BBSMoreViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBSMoreViewCell.xib; sourceTree = "<group>"; };
+		BCFF03DF1A15AF6D006464F2 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		BCFF03E01A15AF6D006464F2 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC19EAE819F49FEB00A3762A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC19EB5019F4BEC200A3762A /* libsqlite3.dylib in Frameworks */,
+				BC19EAF119F49FEB00A3762A /* CoreGraphics.framework in Frameworks */,
+				BC19EAF319F49FEB00A3762A /* UIKit.framework in Frameworks */,
+				BC19EAEF19F49FEB00A3762A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC19EB0319F49FEB00A3762A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC19EB0819F49FEB00A3762A /* XCTest.framework in Frameworks */,
+				BC19EB0A19F49FEB00A3762A /* UIKit.framework in Frameworks */,
+				BC19EB0919F49FEB00A3762A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC0AAB981A0C79E700232357 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				BC0AAB991A0C79E700232357 /* Icon-120@2x.png */,
+				BC0AAB9A1A0C79E700232357 /* Icon-58@2x.png */,
+				BC0AAB9B1A0C79E700232357 /* Icon-80@2x.png */,
+				BC0AAB9C1A0C79E700232357 /* launchimage-568h@2x.png */,
+				BC0AAB9D1A0C79E700232357 /* launchimage@2x.png */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		BC0B30C71A09C82300581241 /* random */ = {
+			isa = PBXGroup;
+			children = (
+				BC0B30C81A09C82300581241 /* 0.png */,
+				BC0B30C91A09C82300581241 /* 1.png */,
+				BC0B30CA1A09C82300581241 /* 2.png */,
+				BC0B30CB1A09C82300581241 /* 3.png */,
+				BC0B30CC1A09C82300581241 /* 4.png */,
+				BC0B30CD1A09C82300581241 /* 5.png */,
+				BC0B30CE1A09C82300581241 /* 6.png */,
+				BC0B30CF1A09C82300581241 /* 7.png */,
+				BC0B30D01A09C82300581241 /* 8.png */,
+				BC0B30D11A09C82300581241 /* 9.png */,
+			);
+			path = random;
+			sourceTree = "<group>";
+		};
+		BC0D306A1A033B730079AF06 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BCEE0E171A07A1F60077E890 /* RefreshView */,
+				BC0D306B1A033B980079AF06 /* HttpRequestManager.h */,
+				BC0D306C1A033B980079AF06 /* HttpRequestManager.m */,
+				BCFF03DF1A15AF6D006464F2 /* Tools.h */,
+				BCFF03E01A15AF6D006464F2 /* Tools.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		BC19EAE219F49FEB00A3762A = {
+			isa = PBXGroup;
+			children = (
+				BC0D306A1A033B730079AF06 /* Utils */,
+				BC19EB1F19F4A01200A3762A /* Models */,
+				BC19EB1E19F4A01000A3762A /* Views */,
+				BC19EB1D19F4A00E00A3762A /* Controllers */,
+				BC19EAF419F49FEB00A3762A /* BnSBang */,
+				BC19EB0D19F49FEB00A3762A /* BnSBangTests */,
+				BC19EAED19F49FEB00A3762A /* Frameworks */,
+				BC19EAEC19F49FEB00A3762A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC19EAEC19F49FEB00A3762A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC19EAEB19F49FEB00A3762A /* 剑灵帮帮.app */,
+				BC19EB0619F49FEB00A3762A /* 剑灵帮帮Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC19EAED19F49FEB00A3762A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC19EB4F19F4BEC200A3762A /* libsqlite3.dylib */,
+				BC19EAEE19F49FEB00A3762A /* Foundation.framework */,
+				BC19EAF019F49FEB00A3762A /* CoreGraphics.framework */,
+				BC19EAF219F49FEB00A3762A /* UIKit.framework */,
+				BC19EB0719F49FEB00A3762A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC19EAF419F49FEB00A3762A /* BnSBang */ = {
+			isa = PBXGroup;
+			children = (
+				BC19EAFD19F49FEB00A3762A /* AppDelegate.h */,
+				BC19EAFE19F49FEB00A3762A /* AppDelegate.m */,
+				BC19EB0019F49FEB00A3762A /* Images.xcassets */,
+				BC19EAF519F49FEB00A3762A /* Supporting Files */,
+			);
+			path = BnSBang;
+			sourceTree = "<group>";
+		};
+		BC19EAF519F49FEB00A3762A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCEDFA4A1A1366DD00F1288A /* bqs0@2x.png */,
+				BCEDFA4B1A1366DD00F1288A /* bqs1@2x.png */,
+				BCEDFA4C1A1366DD00F1288A /* bqs2@2x.png */,
+				BCEDFA4D1A1366DD00F1288A /* jinhua2@2x.png */,
+				BCEDFA4E1A1366DD00F1288A /* jinhua1@2x.png */,
+				BCEDFA4F1A1366DD00F1288A /* jinhua0@2x.png */,
+				BCEDFA461A13577A00F1288A /* baiqingzx@2x.png */,
+				BCEDFA471A13577A00F1288A /* shuiyuezx@2x.png */,
+				BCEDFA3E1A1356C500F1288A /* baiqingcs@2x.png */,
+				BCEDFA401A1356C500F1288A /* shuiyuecs@2x.png */,
+				BC99BDA81A0F4B5F00A3C791 /* srcimg */,
+				BC0AAC281A0CF88B00232357 /* shuiyue@2x.png */,
+				BC0AAC241A0CF77300232357 /* baiqing@2x.png */,
+				BC0AABA51A0C9AA900232357 /* btnbgimg.png */,
+				BC0AAB981A0C79E700232357 /* icon */,
+				BCEE0DEF1A076DED0077E890 /* SDWebImage */,
+				BC38EB731A0A3640001834A5 /* tabbar_img */,
+				BCF10A841A070C9600F8F16D /* image */,
+				BC19EB3719F4B49800A3762A /* imagex@2x.png */,
+				BC19EB3519F4B47300A3762A /* image@2x.png */,
+				BC19EAF619F49FEB00A3762A /* 剑灵帮帮-Info.plist */,
+				BC98E9001A08EAB200261F9E /* WeaponList.plist */,
+				BC98E90D1A08FC7400261F9E /* JewelryList.plist */,
+				BC98E9281A0906B200261F9E /* BaguaList.plist */,
+				BCFD31AC1A0B3B150007F384 /* ProList.plist */,
+				BC19EAF719F49FEB00A3762A /* InfoPlist.strings */,
+				BC19EAFA19F49FEB00A3762A /* main.m */,
+				BC19EAFC19F49FEB00A3762A /* 剑灵帮帮-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC19EB0D19F49FEB00A3762A /* BnSBangTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC19EB1319F49FEB00A3762A /* BnSBangTests.m */,
+				BC19EB0E19F49FEB00A3762A /* Supporting Files */,
+			);
+			path = BnSBangTests;
+			sourceTree = "<group>";
+		};
+		BC19EB0E19F49FEB00A3762A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC19EB0F19F49FEB00A3762A /* 剑灵帮帮Tests-Info.plist */,
+				BC19EB1019F49FEB00A3762A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC19EB1D19F4A00E00A3762A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC19EB2019F4A05A00A3762A /* MyTabBarController.h */,
+				BC19EB2119F4A05A00A3762A /* MyTabBarController.m */,
+				BCF872F01A026DD200950D32 /* Bns */,
+				BC38EB6B1A0A2744001834A5 /* Video */,
+				BC99BEE71A0F6A4900A3C791 /* Photo */,
+				BC38EB6C1A0A275E001834A5 /* Equipment */,
+				BCF872EC1A026DC600950D32 /* Source */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BC19EB1E19F4A01000A3762A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BCBC0BD51A0B9623007266C7 /* MyScrollView.h */,
+				BCBC0BD61A0B9623007266C7 /* MyScrollView.m */,
+				BCEE0E0D1A076ED20077E890 /* BnsViewCell.h */,
+				BCEE0E0E1A076ED20077E890 /* BnsViewCell.m */,
+				BCEE0E0F1A076ED20077E890 /* BnsViewCell.xib */,
+				BC98E9081A08F6A100261F9E /* MainViewCell.h */,
+				BC98E9091A08F6A100261F9E /* MainViewCell.m */,
+				BC98E90A1A08F6A100261F9E /* MainViewCell.xib */,
+				BCFD31851A0B149D0007F384 /* ProViewCell.h */,
+				BCFD31861A0B149D0007F384 /* ProViewCell.m */,
+				BCFD31871A0B149D0007F384 /* ProViewCell.xib */,
+				BC7C38721A10A04E00522D94 /* CollectViewCell.h */,
+				BC7C38731A10A04E00522D94 /* CollectViewCell.m */,
+				BC7C38751A10A06400522D94 /* CollectLayOut.h */,
+				BC7C38761A10A06400522D94 /* CollectLayOut.m */,
+				BCE7946A1A11D2BD00B20D69 /* MyFooterView.h */,
+				BCE7946B1A11D2BD00B20D69 /* MyFooterView.m */,
+				BCE7946D1A11EAB700B20D69 /* MyFooterView.xib */,
+				BC145F691A149D1600732D8B /* BBSDetailViewCell.h */,
+				BC145F6A1A149D1600732D8B /* BBSDetailViewCell.m */,
+				BC145F6B1A149D1600732D8B /* BBSDetailViewCell.xib */,
+				BCFF03DA1A15A3F3006464F2 /* BBSMoreViewCell.h */,
+				BCFF03DB1A15A3F3006464F2 /* BBSMoreViewCell.m */,
+				BCFF03DC1A15A3F3006464F2 /* BBSMoreViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BC19EB1F19F4A01200A3762A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BC98E9051A08F10300261F9E /* BaseModel.h */,
+				BC98E9061A08F10300261F9E /* BaseModel.m */,
+				BC0D30671A0339B50079AF06 /* BnsModel.h */,
+				BC0D30681A0339B50079AF06 /* BnsModel.m */,
+				BC7C38781A10A08400522D94 /* ImageModel.h */,
+				BC7C38791A10A08400522D94 /* ImageModel.m */,
+				BC98E9021A08F0B200261F9E /* MainModel.h */,
+				BC98E9031A08F0B200261F9E /* MainModel.m */,
+				BCFD31AE1A0B3DFA0007F384 /* ProModel.h */,
+				BCFD31AF1A0B3DFA0007F384 /* ProModel.m */,
+				BCEDFA5A1A138FCD00F1288A /* BBSModel.h */,
+				BCEDFA5B1A138FCD00F1288A /* BBSModel.m */,
+				BC145F631A14962100732D8B /* BBSDetailModel.h */,
+				BC145F641A14962100732D8B /* BBSDetailModel.m */,
+				BCFF03D41A159B46006464F2 /* BBSMoreModel.h */,
+				BCFF03D51A159B46006464F2 /* BBSMoreModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BC38EB6B1A0A2744001834A5 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				BC38EB6D1A0A27E0001834A5 /* VideoViewController.h */,
+				BC38EB6E1A0A27E0001834A5 /* VideoViewController.m */,
+				BCFD31821A0B128C0007F384 /* ProViewController.h */,
+				BCFD31831A0B128C0007F384 /* ProViewController.m */,
+				BCFD31BD1A0B4E990007F384 /* ListViewController.h */,
+				BCFD31BE1A0B4E990007F384 /* ListViewController.m */,
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
+		BC38EB6C1A0A275E001834A5 /* Equipment */ = {
+			isa = PBXGroup;
+			children = (
+				BC38EB701A0A292A001834A5 /* EquipViewController.h */,
+				BC38EB711A0A292A001834A5 /* EquipViewController.m */,
+				BCEDFA591A1367E900F1288A /* GrowthTree */,
+				BCF872ED1A026DCA00950D32 /* Bagua */,
+				BCF872EE1A026DCD00950D32 /* Jewelry */,
+				BCF872EF1A026DCF00950D32 /* Weapon */,
+			);
+			name = Equipment;
+			sourceTree = "<group>";
+		};
+		BC38EB731A0A3640001834A5 /* tabbar_img */ = {
+			isa = PBXGroup;
+			children = (
+				BCEDFA2D1A133D8E00F1288A /* tabbar_bbs.png */,
+				BCEDFA2E1A133D8E00F1288A /* tabbar_bbs@2x.png */,
+				BC38EB741A0A36AE001834A5 /* tabbar_bns.png */,
+				BC38EB751A0A36AE001834A5 /* tabbar_bns@2x.png */,
+				BC38EB761A0A36AE001834A5 /* tabbar_gl.png */,
+				BC38EB771A0A36AE001834A5 /* tabbar_gl@2x.png */,
+				BC38EB781A0A36AE001834A5 /* tabbar_pic.png */,
+				BC38EB791A0A36AE001834A5 /* tabbar_pic@2x.png */,
+				BC38EB7A1A0A36AE001834A5 /* tabbar_video.png */,
+				BC38EB7B1A0A36AE001834A5 /* tabbar_video@2x.png */,
+			);
+			name = tabbar_img;
+			sourceTree = "<group>";
+		};
+		BC99BDA81A0F4B5F00A3C791 /* srcimg */ = {
+			isa = PBXGroup;
+			children = (
+				BC99BDA91A0F4B5F00A3C791 /* bagua */,
+				BC99BE341A0F4B5F00A3C791 /* jewelry */,
+				BC99BE3A1A0F4B5F00A3C791 /* weapon */,
+			);
+			path = srcimg;
+			sourceTree = "<group>";
+		};
+		BC99BDA91A0F4B5F00A3C791 /* bagua */ = {
+			isa = PBXGroup;
+			children = (
+				BC98E9101A09065D00261F9E /* bqcq@2x.png */,
+				BC98E9111A09065D00261F9E /* 白青苍穹八卦牌img.png */,
+				BC98E9121A09065D00261F9E /* bqdd@2x.png */,
+				BC98E9131A09065D00261F9E /* 白青大地八卦牌img.png */,
+				BC99BDA41A0F2B5F00A3C791 /* dazhong.png */,
+				BC99BDA51A0F2B5F00A3C791 /* jixian.png */,
+				BC98E9141A09065D00261F9E /* shexie@2x.png */,
+				BC98E9151A09065D00261F9E /* 蛇蝎帝王八卦牌img.png */,
+				BC98E9161A09065D00261F9E /* tianlong@2x.png */,
+				BC98E9171A09065D00261F9E /* 天龙八卦牌img.png */,
+				BC98E9181A09065D00261F9E /* xiuluo@2x.png */,
+				BC98E9191A09065D00261F9E /* 修罗八卦牌img.png */,
+				BC98E91A1A09065D00261F9E /* xueren@2x.png */,
+				BC98E91B1A09065D00261F9E /* 雪人八卦牌img.png */,
+				BC99BDAA1A0F4B5F00A3C791 /* ahl@2x.png */,
+				BC99BDAB1A0F4B5F00A3C791 /* bl@2x.png */,
+				BC99BDAC1A0F4B5F00A3C791 /* bp@2x.png */,
+				BC99BDAD1A0F4B5F00A3C791 /* ch@2x.png */,
+				BC99BDAE1A0F4B5F00A3C791 /* cw@2x.png */,
+				BC99BDAF1A0F4B5F00A3C791 /* dgj@2x.png */,
+				BC99BDB01A0F4B5F00A3C791 /* dmhj@2x.png */,
+				BC99BDB11A0F4B5F00A3C791 /* dmxs@2x.png */,
+				BC99BDB21A0F4B5F00A3C791 /* ds@2x.png */,
+				BC99BDB31A0F4B5F00A3C791 /* dus@2x.png */,
+				BC99BDB41A0F4B5F00A3C791 /* dw@2x.png */,
+				BC99BDB51A0F4B5F00A3C791 /* dz@2x.png */,
+				BC99BDB61A0F4B5F00A3C791 /* dzs@2x.png */,
+				BC99BDB71A0F4B5F00A3C791 /* gsm@2x.png */,
+				BC99BDB81A0F4B5F00A3C791 /* gssg@2x.png */,
+				BC99BDB91A0F4B5F00A3C791 /* hfn@2x.png */,
+				BC99BDBA1A0F4B5F00A3C791 /* hl@2x.png */,
+				BC99BDBB1A0F4B5F00A3C791 /* hs@2x.png */,
+				BC99BDBC1A0F4B5F00A3C791 /* hslz@2x.png */,
+				BC99BDBD1A0F4B5F00A3C791 /* hus@2x.png */,
+				BC99BDBE1A0F4B5F00A3C791 /* jg@2x.png */,
+				BC99BDBF1A0F4B5F00A3C791 /* jy@2x.png */,
+				BC99BDC01A0F4B5F00A3C791 /* ls@2x.png */,
+				BC99BDC11A0F4B5F00A3C791 /* lwq@2x.png */,
+				BC99BDC21A0F4B5F00A3C791 /* ly@2x.png */,
+				BC99BDC31A0F4B5F00A3C791 /* mg@2x.png */,
+				BC99BDC41A0F4B5F00A3C791 /* mz@2x.png */,
+				BC99BDC51A0F4B5F00A3C791 /* nw@2x.png */,
+				BC99BDC61A0F4B5F00A3C791 /* qh@2x.png */,
+				BC99BDC71A0F4B5F00A3C791 /* qtm@2x.png */,
+				BC99BDC81A0F4B5F00A3C791 /* ry@2x.png */,
+				BC99BDC91A0F4B5F00A3C791 /* sldylz@2x.png */,
+				BC99BDCA1A0F4B5F00A3C791 /* sypybw@2x.png */,
+				BC99BDCB1A0F4B5F00A3C791 /* sypyhj@2x.png */,
+				BC99BDCC1A0F4B5F00A3C791 /* tkw@2x.png */,
+				BC99BDCD1A0F4B5F00A3C791 /* tz@2x.png */,
+				BC99BDCE1A0F4B5F00A3C791 /* wh@2x.png */,
+				BC99BDCF1A0F4B5F00A3C791 /* wk@2x.png */,
+				BC99BDD01A0F4B5F00A3C791 /* ws@2x.png */,
+				BC99BDD11A0F4B5F00A3C791 /* wy@2x.png */,
+				BC99BDD21A0F4B5F00A3C791 /* xlsw@2x.png */,
+				BC99BDD31A0F4B5F00A3C791 /* xz@2x.png */,
+				BC99BDD41A0F4B5F00A3C791 /* ybd@2x.png */,
+				BC99BDD51A0F4B5F00A3C791 /* yllyx@2x.png */,
+				BC99BDD61A0F4B5F00A3C791 /* 万魂八卦牌@2x.png */,
+				BC99BDD71A0F4B5F00A3C791 /* 万魂八卦牌img.png */,
+				BC99BDD81A0F4B5F00A3C791 /* 了无情八卦牌@2x.png */,
+				BC99BDD91A0F4B5F00A3C791 /* 了无情八卦牌img.png */,
+				BC99BDDA1A0F4B5F00A3C791 /* 佣兵队八卦牌@2x.png */,
+				BC99BDDB1A0F4B5F00A3C791 /* 佣兵队八卦牌img.png */,
+				BC99BDDC1A0F4B5F00A3C791 /* 修罗八卦牌@2x.png */,
+				BC99BDDD1A0F4B5F00A3C791 /* 冰魄八卦牌@2x.png */,
+				BC99BDDE1A0F4B5F00A3C791 /* 冰魄八卦牌img.png */,
+				BC99BDDF1A0F4B5F00A3C791 /* 千魂八卦牌@2x.png */,
+				BC99BDE01A0F4B5F00A3C791 /* 千魂八卦牌img.png */,
+				BC99BDE11A0F4B5F00A3C791 /* 大漠侠士八卦牌@2x.png */,
+				BC99BDE21A0F4B5F00A3C791 /* 大漠侠士八卦牌img.png */,
+				BC99BDE31A0F4B5F00A3C791 /* 大漠豪杰八卦牌@2x.png */,
+				BC99BDE41A0F4B5F00A3C791 /* 大漠豪杰八卦牌img.png */,
+				BC99BDE51A0F4B5F00A3C791 /* 大王八卦牌@2x.png */,
+				BC99BDE61A0F4B5F00A3C791 /* 大王八卦牌img.png */,
+				BC99BDE71A0F4B5F00A3C791 /* 天照八卦牌@2x.png */,
+				BC99BDE81A0F4B5F00A3C791 /* 天照八卦牌img.png */,
+				BC99BDE91A0F4B5F00A3C791 /* 天龙八卦牌@2x.png */,
+				BC99BDEA1A0F4B5F00A3C791 /* 失落的永灵族八卦牌@2x.png */,
+				BC99BDEB1A0F4B5F00A3C791 /* 失落的永灵族八卦牌img.png */,
+				BC99BDEC1A0F4B5F00A3C791 /* 女王八卦牌@2x.png */,
+				BC99BDED1A0F4B5F00A3C791 /* 女王八卦牌img.png */,
+				BC99BDEE1A0F4B5F00A3C791 /* 巨岩八卦牌@2x.png */,
+				BC99BDEF1A0F4B5F00A3C791 /* 巨岩八卦牌img.png */,
+				BC99BDF01A0F4B5F00A3C791 /* 巴勒八卦牌@2x.png */,
+				BC99BDF11A0F4B5F00A3C791 /* 巴勒八卦牌img.png */,
+				BC99BDF21A0F4B5F00A3C791 /* 帝国军八卦牌@2x.png */,
+				BC99BDF31A0F4B5F00A3C791 /* 帝国军八卦牌img.png */,
+				BC99BDF41A0F4B5F00A3C791 /* 幻术八卦牌@2x.png */,
+				BC99BDF51A0F4B5F00A3C791 /* 幻术八卦牌img.png */,
+				BC99BDF61A0F4B5F00A3C791 /* 彩虹八卦牌@2x.png */,
+				BC99BDF71A0F4B5F00A3C791 /* 彩虹八卦牌img.png */,
+				BC99BDF81A0F4B5F00A3C791 /* 御龙林英雄八卦牌@2x.png */,
+				BC99BDF91A0F4B5F00A3C791 /* 御龙林英雄八卦牌img.png */,
+				BC99BDFA1A0F4B5F00A3C791 /* 悟空八卦牌@2x.png */,
+				BC99BDFB1A0F4B5F00A3C791 /* 悟空八卦牌img.png */,
+				BC99BDFC1A0F4B5F00A3C791 /* 擎天盟八卦牌@2x.png */,
+				BC99BDFD1A0F4B5F00A3C791 /* 擎天盟八卦牌img.png */,
+				BC99BDFE1A0F4B5F00A3C791 /* 斗战八卦牌@2x.png */,
+				BC99BDFF1A0F4B5F00A3C791 /* 斗战八卦牌img.png */,
+				BC99BE001A0F4B5F00A3C791 /* 斗战圣八卦牌@2x.png */,
+				BC99BE011A0F4B5F00A3C791 /* 斗战圣八卦牌img.png */,
+				BC99BE021A0F4B5F00A3C791 /* 斗神八卦牌@2x.png */,
+				BC99BE031A0F4B5F00A3C791 /* 斗神八卦牌img.png */,
+				BC99BE041A0F4B5F00A3C791 /* 无影八卦牌@2x.png */,
+				BC99BE051A0F4B5F00A3C791 /* 无影八卦牌img.png */,
+				BC99BE061A0F4B5F00A3C791 /* 日月八卦牌@2x.png */,
+				BC99BE071A0F4B5F00A3C791 /* 日月八卦牌img.png */,
+				BC99BE081A0F4B5F00A3C791 /* 暗黑龙八卦牌@2x.png */,
+				BC99BE091A0F4B5F00A3C791 /* 暗黑龙八卦牌img.png */,
+				BC99BE0A1A0F4B5F00A3C791 /* 武神八卦牌@2x.png */,
+				BC99BE0B1A0F4B5F00A3C791 /* 武神八卦牌img.png */,
+				BC99BE0C1A0F4B5F00A3C791 /* 毒蛇八卦牌@2x.png */,
+				BC99BE0D1A0F4B5F00A3C791 /* 毒蛇八卦牌img.png */,
+				BC99BE0E1A0F4B5F00A3C791 /* 水月平原比武八卦牌@2x.png */,
+				BC99BE0F1A0F4B5F00A3C791 /* 水月平原比武八卦牌img.png */,
+				BC99BE101A0F4B5F00A3C791 /* 水月平原豪杰八卦牌@2x.png */,
+				BC99BE111A0F4B5F00A3C791 /* 水月平原豪杰八卦牌img.png */,
+				BC99BE121A0F4B5F00A3C791 /* 海蛇八卦牌@2x.png */,
+				BC99BE131A0F4B5F00A3C791 /* 海蛇八卦牌img.png */,
+				BC99BE141A0F4B5F00A3C791 /* 灵兽八卦牌@2x.png */,
+				BC99BE151A0F4B5F00A3C791 /* 灵兽八卦牌img.png */,
+				BC99BE161A0F4B5F00A3C791 /* 白青大地八卦牌@2x.png */,
+				BC99BE171A0F4B5F00A3C791 /* 白青苍穹八卦牌@2x.png */,
+				BC99BE181A0F4B5F00A3C791 /* 盖世神功八卦牌@2x.png */,
+				BC99BE191A0F4B5F00A3C791 /* 盖世神功八卦牌img.png */,
+				BC99BE1A1A0F4B5F00A3C791 /* 红莲八卦牌@2x.png */,
+				BC99BE1B1A0F4B5F00A3C791 /* 红莲八卦牌img.png */,
+				BC99BE1C1A0F4B5F00A3C791 /* 蛇蝎帝王八卦牌@2x.png */,
+				BC99BE1D1A0F4B5F00A3C791 /* 血浪鲨湾八卦牌img.png */,
+				BC99BE1E1A0F4B5F00A3C791 /* 血浪鲨湾八卦牌@2x.png */,
+				BC99BE1F1A0F4B5F00A3C791 /* 血猪八卦牌@2x.png */,
+				BC99BE201A0F4B5F00A3C791 /* 血猪八卦牌img.png */,
+				BC99BE211A0F4B5F00A3C791 /* 赤尾八卦牌@2x.png */,
+				BC99BE221A0F4B5F00A3C791 /* 赤尾八卦牌img.png */,
+				BC99BE231A0F4B5F00A3C791 /* 迷宫八卦牌@2x.png */,
+				BC99BE241A0F4B5F00A3C791 /* 迷宫八卦牌img.png */,
+				BC99BE251A0F4B5F00A3C791 /* 金刚八卦牌@2x.png */,
+				BC99BE261A0F4B5F00A3C791 /* 金刚八卦牌img.png */,
+				BC99BE271A0F4B5F00A3C791 /* 铁傀王八卦牌@2x.png */,
+				BC99BE281A0F4B5F00A3C791 /* 铁傀王八卦牌img.png */,
+				BC99BE291A0F4B5F00A3C791 /* 雪人八卦牌@2x.png */,
+				BC99BE2A1A0F4B5F00A3C791 /* 雷狱八卦牌@2x.png */,
+				BC99BE2B1A0F4B5F00A3C791 /* 雷狱八卦牌img.png */,
+				BC99BE2C1A0F4B5F00A3C791 /* 马贼八卦牌@2x.png */,
+				BC99BE2D1A0F4B5F00A3C791 /* 马贼八卦牌img.png */,
+				BC99BE2E1A0F4B5F00A3C791 /* 鬼杀门八卦牌@2x.png */,
+				BC99BE2F1A0F4B5F00A3C791 /* 鬼杀门八卦牌img.png */,
+				BC99BE301A0F4B5F00A3C791 /* 黄沙领主八卦牌@2x.png */,
+				BC99BE311A0F4B5F00A3C791 /* 黄沙领主八卦牌img.png */,
+				BC99BE321A0F4B5F00A3C791 /* 黑飞鸟八卦牌@2x.png */,
+				BC99BE331A0F4B5F00A3C791 /* 黑飞鸟八卦牌img.png */,
+			);
+			path = bagua;
+			sourceTree = "<group>";
+		};
+		BC99BE341A0F4B5F00A3C791 /* jewelry */ = {
+			isa = PBXGroup;
+			children = (
+				BC99BE351A0F4B5F00A3C791 /* 白星手镯@2x.png */,
+				BC99BE361A0F4B5F00A3C791 /* 赤星戒指@2x.png */,
+				BC99BE371A0F4B5F00A3C791 /* 青星项链@2x.png */,
+				BC99BE381A0F4B5F00A3C791 /* 黄星腰带@2x.png */,
+				BC99BE391A0F4B5F00A3C791 /* 黑星耳环@2x.png */,
+			);
+			path = jewelry;
+			sourceTree = "<group>";
+		};
+		BC99BE3A1A0F4B5F00A3C791 /* weapon */ = {
+			isa = PBXGroup;
+			children = (
+				BC99BE3B1A0F4B5F00A3C791 /* 大众传说@2x.png */,
+				BC99BE3C1A0F4B5F00A3C791 /* 极限传说@2x.png */,
+				BC99BE3D1A0F4B5F00A3C791 /* 光明无常@2x.png */,
+				BC99BE3E1A0F4B5F00A3C791 /* 劫难无极@2x.png */,
+				BC99BE3F1A0F4B5F00A3C791 /* 尚方无极@2x.png */,
+				BC99BE401A0F4B5F00A3C791 /* 无形@2x.png */,
+				BC99BE411A0F4B5F00A3C791 /* 暗黑无常@2x.png */,
+				BC99BE421A0F4B5F00A3C791 /* 炎魂无极@2x.png */,
+				BC99BE431A0F4B5F00A3C791 /* 生魂无极@2x.png */,
+				BC99BE441A0F4B5F00A3C791 /* 风魂无极@2x.png */,
+			);
+			path = weapon;
+			sourceTree = "<group>";
+		};
+		BC99BEE71A0F6A4900A3C791 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				BC99BEE81A0F6A8700A3C791 /* PhotoViewController.h */,
+				BC99BEE91A0F6A8700A3C791 /* PhotoViewController.m */,
+				BCEDFA2A1A133C5000F1288A /* MyNavController.h */,
+				BCEDFA2B1A133C5000F1288A /* MyNavController.m */,
+				BCE7946F1A11F33800B20D69 /* PhotoDetailController.h */,
+				BCE794701A11F33900B20D69 /* PhotoDetailController.m */,
+				BCE7947E1A123AFD00B20D69 /* MoreViewController.h */,
+				BCE7947F1A123AFD00B20D69 /* MoreViewController.m */,
+			);
+			name = Photo;
+			sourceTree = "<group>";
+		};
+		BCEDFA591A1367E900F1288A /* GrowthTree */ = {
+			isa = PBXGroup;
+			children = (
+				BC19EB3219F4B04900A3762A /* SrcViewController.h */,
+				BC19EB3319F4B04900A3762A /* SrcViewController.m */,
+				BCEDFA561A1367DC00F1288A /* DtViewController.h */,
+				BCEDFA571A1367DC00F1288A /* DtViewController.m */,
+			);
+			name = GrowthTree;
+			sourceTree = "<group>";
+		};
+		BCEE0DEF1A076DED0077E890 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				BCEE0DF01A076DED0077E890 /* LICENSE */,
+				BCEE0DF11A076DED0077E890 /* README.md */,
+				BCEE0DF21A076DED0077E890 /* SDImageCache.h */,
+				BCEE0DF31A076DED0077E890 /* SDImageCache.m */,
+				BCEE0DF41A076DED0077E890 /* SDImageCacheDelegate.h */,
+				BCEE0DF51A076DED0077E890 /* SDWebImageCompat.h */,
+				BCEE0DF61A076DED0077E890 /* SDWebImageDecoder.h */,
+				BCEE0DF71A076DED0077E890 /* SDWebImageDecoder.m */,
+				BCEE0DF81A076DED0077E890 /* SDWebImageDownloader.h */,
+				BCEE0DF91A076DED0077E890 /* SDWebImageDownloader.m */,
+				BCEE0DFA1A076DED0077E890 /* SDWebImageDownloaderDelegate.h */,
+				BCEE0DFB1A076DED0077E890 /* SDWebImageManager.h */,
+				BCEE0DFC1A076DED0077E890 /* SDWebImageManager.m */,
+				BCEE0DFD1A076DED0077E890 /* SDWebImageManagerDelegate.h */,
+				BCEE0DFE1A076DED0077E890 /* SDWebImagePrefetcher.h */,
+				BCEE0DFF1A076DED0077E890 /* SDWebImagePrefetcher.m */,
+				BCEE0E001A076DED0077E890 /* UIButton+WebCache.h */,
+				BCEE0E011A076DED0077E890 /* UIButton+WebCache.m */,
+				BCEE0E021A076DED0077E890 /* UIImageView+WebCache.h */,
+				BCEE0E031A076DED0077E890 /* UIImageView+WebCache.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		BCEE0E171A07A1F60077E890 /* RefreshView */ = {
+			isa = PBXGroup;
+			children = (
+				BCEE0E181A07A1F60077E890 /* blueArrow.png */,
+				BCEE0E191A07A1F60077E890 /* blueArrow@2x.png */,
+				BCEE0E1A1A07A1F60077E890 /* RefreshView.h */,
+				BCEE0E1B1A07A1F60077E890 /* RefreshView.m */,
+				BCEE0E1C1A07A1F60077E890 /* RefreshView.xib */,
+			);
+			path = RefreshView;
+			sourceTree = "<group>";
+		};
+		BCF10A841A070C9600F8F16D /* image */ = {
+			isa = PBXGroup;
+			children = (
+				BCF10A851A070C9600F8F16D /* bagua@2x.png */,
+				BC38EB881A0A5134001834A5 /* baguaimg@2x.png */,
+				BCF10B931A076A9800F8F16D /* baguax@2x.png */,
+				BCF10A861A070C9600F8F16D /* baixing.png */,
+				BC98E8FE1A08DC6500261F9E /* bgbagua.png */,
+				BC0B30E01A0A09FC00581241 /* bgimg@2x.png */,
+				BC98E8F61A08D82700261F9E /* bgjewelry@2x.png */,
+				BC98E8F11A08CD0300261F9E /* bglogo@2x.png */,
+				BCFD31801A0B09C80007F384 /* bglogoblack@2x.png */,
+				BC98E8F81A08D9D200261F9E /* bgweapon@2x.png */,
+				BCFD31A61A0B2EBA0007F384 /* biwu@2x.png */,
+				BCF10AFF1A07218800F8F16D /* bns@2x.png */,
+				BCF10B001A07218800F8F16D /* bnsx@2x.png */,
+				BCF10A871A070C9600F8F16D /* chixing.png */,
+				BCFD31B31A0B493B0007F384 /* ckbglabel.png */,
+				BCFD31981A0B23B10007F384 /* cklogo@2x.png */,
+				BCFD318A1A0B1C0D0007F384 /* ckzy@2x.png */,
+				BCFD31A71A0B2EBA0007F384 /* danshua@2x.png */,
+				BCF10A881A070C9600F8F16D /* fenghun.png */,
+				BCF10A891A070C9600F8F16D /* heixing.png */,
+				BCF10A8A1A070C9600F8F16D /* huangxing.png */,
+				BCF10A8B1A070C9600F8F16D /* jewelry@2x.png */,
+				BC38EB841A0A5128001834A5 /* jewelryimg@2x.png */,
+				BCF10A8C1A070C9600F8F16D /* jienan.png */,
+				BCFD31991A0B23B10007F384 /* jslogo@2x.png */,
+				BCFD318B1A0B1C0D0007F384 /* jszy@2x.png */,
+				BCFD31B11A0B43F70007F384 /* labelbg.png */,
+				BCFD31A81A0B2EBA0007F384 /* lianzhao@2x.png */,
+				BCFD319A1A0B23B10007F384 /* ljlogo@2x.png */,
+				BCFD318C1A0B1C0D0007F384 /* ljzy@2x.png */,
+				BCFD31B41A0B493B0007F384 /* lsbglabel.png */,
+				BCFD319B1A0B23B10007F384 /* lslogo@2x.png */,
+				BCFD318D1A0B1C0D0007F384 /* lszy@2x.png */,
+				BCF10B051A07278400F8F16D /* main@2x.png */,
+				BCFD31B51A0B493B0007F384 /* qgbglabel.png */,
+				BCFD319C1A0B23B10007F384 /* qglogo@2x.png */,
+				BCFD318E1A0B1C0D0007F384 /* qgzy@2x.png */,
+				BCF10A8D1A070C9600F8F16D /* qingxing.png */,
+				BCFD31B61A0B493B0007F384 /* qsbglabel.png */,
+				BCFD319D1A0B23B10007F384 /* qslogo@2x.png */,
+				BCFD318F1A0B1C0D0007F384 /* qszy@2x.png */,
+				BC0B30C71A09C82300581241 /* random */,
+				BCF10A981A070C9600F8F16D /* shangfang.png */,
+				BCF10A991A070C9600F8F16D /* shenghun.png */,
+				BCF10AFD1A071F2900F8F16D /* source@2x.png */,
+				BCF10B091A072E8C00F8F16D /* sourcex@2x.png */,
+				BCF10A9A1A070C9600F8F16D /* weapon@2x.png */,
+				BC38EB851A0A5128001834A5 /* weaponimg@2x.png */,
+				BCEE0E121A0774920077E890 /* weaponx@2x.png */,
+				BCF10A9B1A070C9600F8F16D /* wuchang.png */,
+				BC0B30DE1A09D5C200581241 /* wuchangx.png */,
+				BCF10A9D1A070C9600F8F16D /* wuxing.png */,
+				BCF10A9C1A070C9600F8F16D /* wuxing10@2x.png */,
+				BCF10A9E1A070C9600F8F16D /* yanhun.png */,
+				BCFD31B71A0B493B0007F384 /* zhbglabel.png */,
+				BCFD319E1A0B23B10007F384 /* zhlogo@2x.png */,
+				BCFD31901A0B1C0D0007F384 /* zhzy@2x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		BCF872EC1A026DC600950D32 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BCEDFA311A1340B000F1288A /* BBSViewController.h */,
+				BCEDFA321A1340B000F1288A /* BBSViewController.m */,
+				BC145F601A14902700732D8B /* BBSDetailController.h */,
+				BC145F611A14902700732D8B /* BBSDetailController.m */,
+				BCFF03D11A159851006464F2 /* BBSMoreController.h */,
+				BCFF03D21A159851006464F2 /* BBSMoreController.m */,
+				BC145F581A14451E00732D8B /* LoginViewController.h */,
+				BC145F591A14451E00732D8B /* LoginViewController.m */,
+				BC145F5A1A14451E00732D8B /* LoginViewController.xib */,
+				BC145F5D1A14507C00732D8B /* RegisterViewController.h */,
+				BC145F5E1A14507C00732D8B /* RegisterViewController.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		BCF872ED1A026DCA00950D32 /* Bagua */ = {
+			isa = PBXGroup;
+			children = (
+				BC19EB2819F4A29D00A3762A /* BaguaViewController.h */,
+				BC19EB2919F4A29D00A3762A /* BaguaViewController.m */,
+				BC99BEDE1A0F55C500A3C791 /* BaguaDetailController.h */,
+				BC99BEDF1A0F55C500A3C791 /* BaguaDetailController.m */,
+			);
+			name = Bagua;
+			sourceTree = "<group>";
+		};
+		BCF872EE1A026DCD00950D32 /* Jewelry */ = {
+			isa = PBXGroup;
+			children = (
+				BC98E8F31A08D13600261F9E /* JewelryViewController.h */,
+				BC98E8F41A08D13600261F9E /* JewelryViewController.m */,
+			);
+			name = Jewelry;
+			sourceTree = "<group>";
+		};
+		BCF872EF1A026DCF00950D32 /* Weapon */ = {
+			isa = PBXGroup;
+			children = (
+				BC19EB2319F4A16B00A3762A /* MainViewController.h */,
+				BC19EB2419F4A16B00A3762A /* MainViewController.m */,
+				BC99BEE41A0F620D00A3C791 /* WeaponDetailController.h */,
+				BC99BEE51A0F620D00A3C791 /* WeaponDetailController.m */,
+			);
+			name = Weapon;
+			sourceTree = "<group>";
+		};
+		BCF872F01A026DD200950D32 /* Bns */ = {
+			isa = PBXGroup;
+			children = (
+				BCF872E91A02695100950D32 /* BnsViewController.h */,
+				BCF872EA1A02695100950D32 /* BnsViewController.m */,
+				BCEE0E141A07813C0077E890 /* DetailViewController.h */,
+				BCEE0E151A07813C0077E890 /* DetailViewController.m */,
+			);
+			name = Bns;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC19EAEA19F49FEB00A3762A /* 剑灵帮帮 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC19EB1719F49FEB00A3762A /* Build configuration list for PBXNativeTarget "剑灵帮帮" */;
+			buildPhases = (
+				BC19EAE719F49FEB00A3762A /* Sources */,
+				BC19EAE819F49FEB00A3762A /* Frameworks */,
+				BC19EAE919F49FEB00A3762A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "剑灵帮帮";
+			productName = BnSBang;
+			productReference = BC19EAEB19F49FEB00A3762A /* 剑灵帮帮.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC19EB0519F49FEB00A3762A /* 剑灵帮帮Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC19EB1A19F49FEB00A3762A /* Build configuration list for PBXNativeTarget "剑灵帮帮Tests" */;
+			buildPhases = (
+				BC19EB0219F49FEB00A3762A /* Sources */,
+				BC19EB0319F49FEB00A3762A /* Frameworks */,
+				BC19EB0419F49FEB00A3762A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC19EB0C19F49FEB00A3762A /* PBXTargetDependency */,
+			);
+			name = "剑灵帮帮Tests";
+			productName = BnSBangTests;
+			productReference = BC19EB0619F49FEB00A3762A /* 剑灵帮帮Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC19EAE319F49FEB00A3762A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jyw;
+				TargetAttributes = {
+					BC19EB0519F49FEB00A3762A = {
+						TestTargetID = BC19EAEA19F49FEB00A3762A;
+					};
+				};
+			};
+			buildConfigurationList = BC19EAE619F49FEB00A3762A /* Build configuration list for PBXProject "剑灵帮帮" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = BC19EAE219F49FEB00A3762A;
+			productRefGroup = BC19EAEC19F49FEB00A3762A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC19EAEA19F49FEB00A3762A /* 剑灵帮帮 */,
+				BC19EB0519F49FEB00A3762A /* 剑灵帮帮Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC19EAE919F49FEB00A3762A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC99BE471A0F4B5F00A3C791 /* bp@2x.png in Resources */,
+				BC99BE671A0F4B5F00A3C791 /* tkw@2x.png in Resources */,
+				BCF10AA61A070C9600F8F16D /* jienan.png in Resources */,
+				BC99BE811A0F4B5F00A3C791 /* 大王八卦牌img.png in Resources */,
+				BC98E8F21A08CD0300261F9E /* bglogo@2x.png in Resources */,
+				BC99BE7F1A0F4B5F00A3C791 /* 大漠豪杰八卦牌img.png in Resources */,
+				BC99BE761A0F4B5F00A3C791 /* 佣兵队八卦牌img.png in Resources */,
+				BC0B30D51A09C82300581241 /* 3.png in Resources */,
+				BC99BE8F1A0F4B5F00A3C791 /* 幻术八卦牌@2x.png in Resources */,
+				BC99BE461A0F4B5F00A3C791 /* bl@2x.png in Resources */,
+				BCFF03DE1A15A3F3006464F2 /* BBSMoreViewCell.xib in Resources */,
+				BCEDFA301A133D8E00F1288A /* tabbar_bbs@2x.png in Resources */,
+				BC99BE6D1A0F4B5F00A3C791 /* xlsw@2x.png in Resources */,
+				BCF10AB61A070C9600F8F16D /* wuxing10@2x.png in Resources */,
+				BC99BE941A0F4B5F00A3C791 /* 御龙林英雄八卦牌img.png in Resources */,
+				BC0B30DB1A09C82300581241 /* 9.png in Resources */,
+				BC99BED71A0F4B5F00A3C791 /* 劫难无极@2x.png in Resources */,
+				BC99BEB81A0F4B5F00A3C791 /* 血浪鲨湾八卦牌img.png in Resources */,
+				BC99BE8B1A0F4B5F00A3C791 /* 巴勒八卦牌@2x.png in Resources */,
+				BC99BEDB1A0F4B5F00A3C791 /* 炎魂无极@2x.png in Resources */,
+				BC99BECA1A0F4B5F00A3C791 /* 鬼杀门八卦牌img.png in Resources */,
+				BCF10B021A07218800F8F16D /* bnsx@2x.png in Resources */,
+				BC99BEAC1A0F4B5F00A3C791 /* 水月平原豪杰八卦牌img.png in Resources */,
+				BC99BEB31A0F4B5F00A3C791 /* 盖世神功八卦牌@2x.png in Resources */,
+				BC99BE931A0F4B5F00A3C791 /* 御龙林英雄八卦牌@2x.png in Resources */,
+				BC99BE961A0F4B5F00A3C791 /* 悟空八卦牌img.png in Resources */,
+				BC38EB7D1A0A36AE001834A5 /* tabbar_bns@2x.png in Resources */,
+				BC99BEDC1A0F4B5F00A3C791 /* 生魂无极@2x.png in Resources */,
+				BC99BE581A0F4B5F00A3C791 /* hus@2x.png in Resources */,
+				BC99BE7A1A0F4B5F00A3C791 /* 千魂八卦牌@2x.png in Resources */,
+				BC99BEC11A0F4B5F00A3C791 /* 金刚八卦牌img.png in Resources */,
+				BC0AABA11A0C79E700232357 /* launchimage-568h@2x.png in Resources */,
+				BC99BE6E1A0F4B5F00A3C791 /* xz@2x.png in Resources */,
+				BC99BE451A0F4B5F00A3C791 /* ahl@2x.png in Resources */,
+				BC99BE4B1A0F4B5F00A3C791 /* dmhj@2x.png in Resources */,
+				BC99BE701A0F4B5F00A3C791 /* yllyx@2x.png in Resources */,
+				BC19EB3619F4B47300A3762A /* image@2x.png in Resources */,
+				BC38EB831A0A36AE001834A5 /* tabbar_video@2x.png in Resources */,
+				BC0B30DA1A09C82300581241 /* 8.png in Resources */,
+				BC99BEC61A0F4B5F00A3C791 /* 雷狱八卦牌img.png in Resources */,
+				BCF10AB51A070C9600F8F16D /* wuchang.png in Resources */,
+				BC99BE9E1A0F4B5F00A3C791 /* 斗神八卦牌img.png in Resources */,
+				BC99BE8D1A0F4B5F00A3C791 /* 帝国军八卦牌@2x.png in Resources */,
+				BC99BE891A0F4B5F00A3C791 /* 巨岩八卦牌@2x.png in Resources */,
+				BC145F6D1A149D1600732D8B /* BBSDetailViewCell.xib in Resources */,
+				BC99BE7D1A0F4B5F00A3C791 /* 大漠侠士八卦牌img.png in Resources */,
+				BC98E9211A09065D00261F9E /* 蛇蝎帝王八卦牌img.png in Resources */,
+				BC99BE741A0F4B5F00A3C791 /* 了无情八卦牌img.png in Resources */,
+				BCFD31B91A0B493B0007F384 /* lsbglabel.png in Resources */,
+				BC99BE541A0F4B5F00A3C791 /* hfn@2x.png in Resources */,
+				BC99BE511A0F4B5F00A3C791 /* dzs@2x.png in Resources */,
+				BCFD31811A0B09C80007F384 /* bglogoblack@2x.png in Resources */,
+				BC99BEBB1A0F4B5F00A3C791 /* 血猪八卦牌img.png in Resources */,
+				BCFD31AD1A0B3B150007F384 /* ProList.plist in Resources */,
+				BC98E9201A09065D00261F9E /* shexie@2x.png in Resources */,
+				BC99BEB61A0F4B5F00A3C791 /* 红莲八卦牌img.png in Resources */,
+				BCEDFA501A1366DD00F1288A /* bqs0@2x.png in Resources */,
+				BC99BEA01A0F4B5F00A3C791 /* 无影八卦牌img.png in Resources */,
+				BCEDFA2F1A133D8E00F1288A /* tabbar_bbs.png in Resources */,
+				BC0B30DF1A09D5C200581241 /* wuchangx.png in Resources */,
+				BC99BE681A0F4B5F00A3C791 /* tz@2x.png in Resources */,
+				BC99BED81A0F4B5F00A3C791 /* 尚方无极@2x.png in Resources */,
+				BC0B30D71A09C82300581241 /* 5.png in Resources */,
+				BC99BECF1A0F4B5F00A3C791 /* 白星手镯@2x.png in Resources */,
+				BC99BE491A0F4B5F00A3C791 /* cw@2x.png in Resources */,
+				BC0AAC291A0CF88B00232357 /* shuiyue@2x.png in Resources */,
+				BCFD31BA1A0B493B0007F384 /* qgbglabel.png in Resources */,
+				BC99BED31A0F4B5F00A3C791 /* 黑星耳环@2x.png in Resources */,
+				BC99BED01A0F4B5F00A3C791 /* 赤星戒指@2x.png in Resources */,
+				BC0B30E11A0A09FC00581241 /* bgimg@2x.png in Resources */,
+				BC99BEB91A0F4B5F00A3C791 /* 血浪鲨湾八卦牌@2x.png in Resources */,
+				BC99BE6F1A0F4B5F00A3C791 /* ybd@2x.png in Resources */,
+				BC99BE531A0F4B5F00A3C791 /* gssg@2x.png in Resources */,
+				BCFD31A91A0B2EBA0007F384 /* biwu@2x.png in Resources */,
+				BCFD31931A0B1C0D0007F384 /* ljzy@2x.png in Resources */,
+				BC99BEA61A0F4B5F00A3C791 /* 武神八卦牌img.png in Resources */,
+				BC99BE601A0F4B5F00A3C791 /* nw@2x.png in Resources */,
+				BC99BE5F1A0F4B5F00A3C791 /* mz@2x.png in Resources */,
+				BC38EB811A0A36AE001834A5 /* tabbar_pic@2x.png in Resources */,
+				BC99BE561A0F4B5F00A3C791 /* hs@2x.png in Resources */,
+				BC99BEBD1A0F4B5F00A3C791 /* 赤尾八卦牌img.png in Resources */,
+				BCF10AA51A070C9600F8F16D /* jewelry@2x.png in Resources */,
+				BC99BEAE1A0F4B5F00A3C791 /* 海蛇八卦牌img.png in Resources */,
+				BCEDFA421A1356C500F1288A /* baiqingcs@2x.png in Resources */,
+				BCFD31A11A0B23B10007F384 /* ljlogo@2x.png in Resources */,
+				BC99BE9C1A0F4B5F00A3C791 /* 斗战圣八卦牌img.png in Resources */,
+				BC99BE5D1A0F4B5F00A3C791 /* ly@2x.png in Resources */,
+				BC99BE6A1A0F4B5F00A3C791 /* wk@2x.png in Resources */,
+				BC99BEAA1A0F4B5F00A3C791 /* 水月平原比武八卦牌img.png in Resources */,
+				BC99BE781A0F4B5F00A3C791 /* 冰魄八卦牌@2x.png in Resources */,
+				BC98E91E1A09065D00261F9E /* bqdd@2x.png in Resources */,
+				BCF10AA31A070C9600F8F16D /* heixing.png in Resources */,
+				BCF10B0A1A072E8C00F8F16D /* sourcex@2x.png in Resources */,
+				BC98E9241A09065D00261F9E /* xiuluo@2x.png in Resources */,
+				BC0B30D81A09C82300581241 /* 6.png in Resources */,
+				BC0B30D61A09C82300581241 /* 4.png in Resources */,
+				BC98E91F1A09065D00261F9E /* 白青大地八卦牌img.png in Resources */,
+				BC99BE721A0F4B5F00A3C791 /* 万魂八卦牌img.png in Resources */,
+				BC38EB7F1A0A36AE001834A5 /* tabbar_gl@2x.png in Resources */,
+				BC99BE881A0F4B5F00A3C791 /* 女王八卦牌img.png in Resources */,
+				BCF10AA41A070C9600F8F16D /* huangxing.png in Resources */,
+				BCFD31A21A0B23B10007F384 /* lslogo@2x.png in Resources */,
+				BC99BE9B1A0F4B5F00A3C791 /* 斗战圣八卦牌@2x.png in Resources */,
+				BC99BEB41A0F4B5F00A3C791 /* 盖世神功八卦牌img.png in Resources */,
+				BC0AABA61A0C9AA900232357 /* btnbgimg.png in Resources */,
+				BC38EB7E1A0A36AE001834A5 /* tabbar_gl.png in Resources */,
+				BC98E8F91A08D9D200261F9E /* bgweapon@2x.png in Resources */,
+				BC99BEAF1A0F4B5F00A3C791 /* 灵兽八卦牌@2x.png in Resources */,
+				BC99BED61A0F4B5F00A3C791 /* 光明无常@2x.png in Resources */,
+				BC0B30D41A09C82300581241 /* 2.png in Resources */,
+				BCFD31A01A0B23B10007F384 /* jslogo@2x.png in Resources */,
+				BC99BEBC1A0F4B5F00A3C791 /* 赤尾八卦牌@2x.png in Resources */,
+				BCFD31941A0B1C0D0007F384 /* lszy@2x.png in Resources */,
+				BC0AABA21A0C79E700232357 /* launchimage@2x.png in Resources */,
+				BC99BE9F1A0F4B5F00A3C791 /* 无影八卦牌@2x.png in Resources */,
+				BC19EAF919F49FEB00A3762A /* InfoPlist.strings in Resources */,
+				BC99BE831A0F4B5F00A3C791 /* 天照八卦牌img.png in Resources */,
+				BC19EB3819F4B49800A3762A /* imagex@2x.png in Resources */,
+				BC99BE991A0F4B5F00A3C791 /* 斗战八卦牌@2x.png in Resources */,
+				BC99BEB11A0F4B5F00A3C791 /* 白青大地八卦牌@2x.png in Resources */,
+				BC98E9271A09065D00261F9E /* 雪人八卦牌img.png in Resources */,
+				BC38EB801A0A36AE001834A5 /* tabbar_pic.png in Resources */,
+				BC99BED91A0F4B5F00A3C791 /* 无形@2x.png in Resources */,
+				BCEE0E041A076DED0077E890 /* LICENSE in Resources */,
+				BCFD31AA1A0B2EBA0007F384 /* danshua@2x.png in Resources */,
+				BC99BE751A0F4B5F00A3C791 /* 佣兵队八卦牌@2x.png in Resources */,
+				BCF10AB41A070C9600F8F16D /* weapon@2x.png in Resources */,
+				BC99BEBA1A0F4B5F00A3C791 /* 血猪八卦牌@2x.png in Resources */,
+				BC99BE481A0F4B5F00A3C791 /* ch@2x.png in Resources */,
+				BC99BE851A0F4B5F00A3C791 /* 失落的永灵族八卦牌@2x.png in Resources */,
+				BC99BE5A1A0F4B5F00A3C791 /* jy@2x.png in Resources */,
+				BC99BE501A0F4B5F00A3C791 /* dz@2x.png in Resources */,
+				BC99BEC21A0F4B5F00A3C791 /* 铁傀王八卦牌@2x.png in Resources */,
+				BCF10AB81A070C9600F8F16D /* yanhun.png in Resources */,
+				BC99BECC1A0F4B5F00A3C791 /* 黄沙领主八卦牌img.png in Resources */,
+				BC99BE5C1A0F4B5F00A3C791 /* lwq@2x.png in Resources */,
+				BC145F5C1A14451E00732D8B /* LoginViewController.xib in Resources */,
+				BC99BE6B1A0F4B5F00A3C791 /* ws@2x.png in Resources */,
+				BC99BE871A0F4B5F00A3C791 /* 女王八卦牌@2x.png in Resources */,
+				BC99BEA21A0F4B5F00A3C791 /* 日月八卦牌img.png in Resources */,
+				BC99BEAB1A0F4B5F00A3C791 /* 水月平原豪杰八卦牌@2x.png in Resources */,
+				BC99BEA31A0F4B5F00A3C791 /* 暗黑龙八卦牌@2x.png in Resources */,
+				BCF10B011A07218800F8F16D /* bns@2x.png in Resources */,
+				BCFD31921A0B1C0D0007F384 /* jszy@2x.png in Resources */,
+				BCF10AA01A070C9600F8F16D /* baixing.png in Resources */,
+				BC99BE6C1A0F4B5F00A3C791 /* wy@2x.png in Resources */,
+				BC99BE731A0F4B5F00A3C791 /* 了无情八卦牌@2x.png in Resources */,
+				BC0AAC261A0CF77300232357 /* baiqing@2x.png in Resources */,
+				BC99BE661A0F4B5F00A3C791 /* sypyhj@2x.png in Resources */,
+				BC99BE791A0F4B5F00A3C791 /* 冰魄八卦牌img.png in Resources */,
+				BC99BED11A0F4B5F00A3C791 /* 青星项链@2x.png in Resources */,
+				BC98E8FF1A08DC6500261F9E /* bgbagua.png in Resources */,
+				BC99BE691A0F4B5F00A3C791 /* wh@2x.png in Resources */,
+				BC99BE901A0F4B5F00A3C791 /* 幻术八卦牌img.png in Resources */,
+				BCFD31911A0B1C0D0007F384 /* ckzy@2x.png in Resources */,
+				BC98E9221A09065D00261F9E /* tianlong@2x.png in Resources */,
+				BC99BEAD1A0F4B5F00A3C791 /* 海蛇八卦牌@2x.png in Resources */,
+				BC98E9251A09065D00261F9E /* 修罗八卦牌img.png in Resources */,
+				BCFD31951A0B1C0D0007F384 /* qgzy@2x.png in Resources */,
+				BC99BEB51A0F4B5F00A3C791 /* 红莲八卦牌@2x.png in Resources */,
+				BC99BECB1A0F4B5F00A3C791 /* 黄沙领主八卦牌@2x.png in Resources */,
+				BCEE0E051A076DED0077E890 /* README.md in Resources */,
+				BC99BE571A0F4B5F00A3C791 /* hslz@2x.png in Resources */,
+				BC99BE861A0F4B5F00A3C791 /* 失落的永灵族八卦牌img.png in Resources */,
+				BC0B30D31A09C82300581241 /* 1.png in Resources */,
+				BC99BE4F1A0F4B5F00A3C791 /* dw@2x.png in Resources */,
+				BC99BEDD1A0F4B5F00A3C791 /* 风魂无极@2x.png in Resources */,
+				BC98E9011A08EAB200261F9E /* WeaponList.plist in Resources */,
+				BC98E91D1A09065D00261F9E /* 白青苍穹八卦牌img.png in Resources */,
+				BC99BE801A0F4B5F00A3C791 /* 大王八卦牌@2x.png in Resources */,
+				BCF10A9F1A070C9600F8F16D /* bagua@2x.png in Resources */,
+				BC99BEC71A0F4B5F00A3C791 /* 马贼八卦牌@2x.png in Resources */,
+				BC99BEBF1A0F4B5F00A3C791 /* 迷宫八卦牌img.png in Resources */,
+				BC99BEC31A0F4B5F00A3C791 /* 铁傀王八卦牌img.png in Resources */,
+				BC99BEC01A0F4B5F00A3C791 /* 金刚八卦牌@2x.png in Resources */,
+				BC99BEBE1A0F4B5F00A3C791 /* 迷宫八卦牌@2x.png in Resources */,
+				BC99BE981A0F4B5F00A3C791 /* 擎天盟八卦牌img.png in Resources */,
+				BCFD31BC1A0B493B0007F384 /* zhbglabel.png in Resources */,
+				BC0B30D21A09C82300581241 /* 0.png in Resources */,
+				BC99BE611A0F4B5F00A3C791 /* qh@2x.png in Resources */,
+				BC99BEA91A0F4B5F00A3C791 /* 水月平原比武八卦牌@2x.png in Resources */,
+				BC38EB821A0A36AE001834A5 /* tabbar_video.png in Resources */,
+				BC99BEA81A0F4B5F00A3C791 /* 毒蛇八卦牌img.png in Resources */,
+				BC98E91C1A09065D00261F9E /* bqcq@2x.png in Resources */,
+				BC99BED21A0F4B5F00A3C791 /* 黄星腰带@2x.png in Resources */,
+				BC98E9291A0906B200261F9E /* BaguaList.plist in Resources */,
+				BC99BE911A0F4B5F00A3C791 /* 彩虹八卦牌@2x.png in Resources */,
+				BCEDFA521A1366DD00F1288A /* bqs2@2x.png in Resources */,
+				BCF10AB21A070C9600F8F16D /* shangfang.png in Resources */,
+				BC99BE621A0F4B5F00A3C791 /* qtm@2x.png in Resources */,
+				BC99BE4C1A0F4B5F00A3C791 /* dmxs@2x.png in Resources */,
+				BC38EB7C1A0A36AE001834A5 /* tabbar_bns.png in Resources */,
+				BC99BEB21A0F4B5F00A3C791 /* 白青苍穹八卦牌@2x.png in Resources */,
+				BC98E90E1A08FC7400261F9E /* JewelryList.plist in Resources */,
+				BC99BEA71A0F4B5F00A3C791 /* 毒蛇八卦牌@2x.png in Resources */,
+				BCEDFA531A1366DD00F1288A /* jinhua2@2x.png in Resources */,
+				BC99BEC41A0F4B5F00A3C791 /* 雪人八卦牌@2x.png in Resources */,
+				BC99BE4A1A0F4B5F00A3C791 /* dgj@2x.png in Resources */,
+				BC99BDA71A0F2B5F00A3C791 /* jixian.png in Resources */,
+				BCF10B061A07278400F8F16D /* main@2x.png in Resources */,
+				BCFD31AB1A0B2EBA0007F384 /* lianzhao@2x.png in Resources */,
+				BC99BE521A0F4B5F00A3C791 /* gsm@2x.png in Resources */,
+				BC98E90C1A08F6A100261F9E /* MainViewCell.xib in Resources */,
+				BCF10B941A076A9800F8F16D /* baguax@2x.png in Resources */,
+				BC99BEC81A0F4B5F00A3C791 /* 马贼八卦牌img.png in Resources */,
+				BC99BEA41A0F4B5F00A3C791 /* 暗黑龙八卦牌img.png in Resources */,
+				BC99BE7C1A0F4B5F00A3C791 /* 大漠侠士八卦牌@2x.png in Resources */,
+				BC38EB871A0A5128001834A5 /* weaponimg@2x.png in Resources */,
+				BCEDFA481A13577A00F1288A /* baiqingzx@2x.png in Resources */,
+				BC99BE551A0F4B5F00A3C791 /* hl@2x.png in Resources */,
+				BC99BEB71A0F4B5F00A3C791 /* 蛇蝎帝王八卦牌@2x.png in Resources */,
+				BCFD31B81A0B493B0007F384 /* ckbglabel.png in Resources */,
+				BCFD31B21A0B43F70007F384 /* labelbg.png in Resources */,
+				BC99BE971A0F4B5F00A3C791 /* 擎天盟八卦牌@2x.png in Resources */,
+				BC99BE9A1A0F4B5F00A3C791 /* 斗战八卦牌img.png in Resources */,
+				BC99BE821A0F4B5F00A3C791 /* 天照八卦牌@2x.png in Resources */,
+				BC99BEA11A0F4B5F00A3C791 /* 日月八卦牌@2x.png in Resources */,
+				BC38EB861A0A5128001834A5 /* jewelryimg@2x.png in Resources */,
+				BC99BE9D1A0F4B5F00A3C791 /* 斗神八卦牌@2x.png in Resources */,
+				BCF10AA11A070C9600F8F16D /* chixing.png in Resources */,
+				BCF10AB71A070C9600F8F16D /* wuxing.png in Resources */,
+				BCEDFA551A1366DD00F1288A /* jinhua0@2x.png in Resources */,
+				BC99BE841A0F4B5F00A3C791 /* 天龙八卦牌@2x.png in Resources */,
+				BC99BE921A0F4B5F00A3C791 /* 彩虹八卦牌img.png in Resources */,
+				BC99BE651A0F4B5F00A3C791 /* sypybw@2x.png in Resources */,
+				BCFD31891A0B149D0007F384 /* ProViewCell.xib in Resources */,
+				BC99BECD1A0F4B5F00A3C791 /* 黑飞鸟八卦牌@2x.png in Resources */,
+				BCE7946E1A11EAB700B20D69 /* MyFooterView.xib in Resources */,
+				BCEDFA511A1366DD00F1288A /* bqs1@2x.png in Resources */,
+				BCEE0E201A07A1F60077E890 /* RefreshView.xib in Resources */,
+				BC38EB891A0A5134001834A5 /* baguaimg@2x.png in Resources */,
+				BC99BE771A0F4B5F00A3C791 /* 修罗八卦牌@2x.png in Resources */,
+				BC99BE4E1A0F4B5F00A3C791 /* dus@2x.png in Resources */,
+				BCEE0E111A076ED20077E890 /* BnsViewCell.xib in Resources */,
+				BC99BE8E1A0F4B5F00A3C791 /* 帝国军八卦牌img.png in Resources */,
+				BC99BEC91A0F4B5F00A3C791 /* 鬼杀门八卦牌@2x.png in Resources */,
+				BC99BE7E1A0F4B5F00A3C791 /* 大漠豪杰八卦牌@2x.png in Resources */,
+				BC99BDA61A0F2B5F00A3C791 /* dazhong.png in Resources */,
+				BC99BE8A1A0F4B5F00A3C791 /* 巨岩八卦牌img.png in Resources */,
+				BC0AAB9F1A0C79E700232357 /* Icon-58@2x.png in Resources */,
+				BC99BEDA1A0F4B5F00A3C791 /* 暗黑无常@2x.png in Resources */,
+				BCEE0E1E1A07A1F60077E890 /* blueArrow@2x.png in Resources */,
+				BC99BE711A0F4B5F00A3C791 /* 万魂八卦牌@2x.png in Resources */,
+				BCF10AB31A070C9600F8F16D /* shenghun.png in Resources */,
+				BC99BE8C1A0F4B5F00A3C791 /* 巴勒八卦牌img.png in Resources */,
+				BC99BED51A0F4B5F00A3C791 /* 极限传说@2x.png in Resources */,
+				BCEDFA441A1356C500F1288A /* shuiyuecs@2x.png in Resources */,
+				BCFD319F1A0B23B10007F384 /* cklogo@2x.png in Resources */,
+				BC98E9231A09065D00261F9E /* 天龙八卦牌img.png in Resources */,
+				BCF10AA21A070C9600F8F16D /* fenghun.png in Resources */,
+				BCF10AFE1A071F2900F8F16D /* source@2x.png in Resources */,
+				BC99BECE1A0F4B5F00A3C791 /* 黑飞鸟八卦牌img.png in Resources */,
+				BC99BEB01A0F4B5F00A3C791 /* 灵兽八卦牌img.png in Resources */,
+				BC99BE591A0F4B5F00A3C791 /* jg@2x.png in Resources */,
+				BC99BE641A0F4B5F00A3C791 /* sldylz@2x.png in Resources */,
+				BCFD31BB1A0B493B0007F384 /* qsbglabel.png in Resources */,
+				BCFD31A31A0B23B10007F384 /* qglogo@2x.png in Resources */,
+				BC99BEA51A0F4B5F00A3C791 /* 武神八卦牌@2x.png in Resources */,
+				BC99BED41A0F4B5F00A3C791 /* 大众传说@2x.png in Resources */,
+				BC99BE7B1A0F4B5F00A3C791 /* 千魂八卦牌img.png in Resources */,
+				BCEDFA491A13577A00F1288A /* shuiyuezx@2x.png in Resources */,
+				BCFD31971A0B1C0D0007F384 /* zhzy@2x.png in Resources */,
+				BC0AAB9E1A0C79E700232357 /* Icon-120@2x.png in Resources */,
+				BC99BE631A0F4B5F00A3C791 /* ry@2x.png in Resources */,
+				BC0B30D91A09C82300581241 /* 7.png in Resources */,
+				BC19EB0119F49FEB00A3762A /* Images.xcassets in Resources */,
+				BCEDFA541A1366DD00F1288A /* jinhua1@2x.png in Resources */,
+				BC99BEC51A0F4B5F00A3C791 /* 雷狱八卦牌@2x.png in Resources */,
+				BC99BE951A0F4B5F00A3C791 /* 悟空八卦牌@2x.png in Resources */,
+				BCFD31961A0B1C0D0007F384 /* qszy@2x.png in Resources */,
+				BC99BE4D1A0F4B5F00A3C791 /* ds@2x.png in Resources */,
+				BCF10AA71A070C9600F8F16D /* qingxing.png in Resources */,
+				BCFD31A41A0B23B10007F384 /* qslogo@2x.png in Resources */,
+				BCFD31A51A0B23B10007F384 /* zhlogo@2x.png in Resources */,
+				BC99BE5E1A0F4B5F00A3C791 /* mg@2x.png in Resources */,
+				BC0AABA01A0C79E700232357 /* Icon-80@2x.png in Resources */,
+				BCEE0E1D1A07A1F60077E890 /* blueArrow.png in Resources */,
+				BC98E8F71A08D82700261F9E /* bgjewelry@2x.png in Resources */,
+				BC99BE5B1A0F4B5F00A3C791 /* ls@2x.png in Resources */,
+				BCEE0E131A0774920077E890 /* weaponx@2x.png in Resources */,
+				BC98E9261A09065D00261F9E /* xueren@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC19EB0419F49FEB00A3762A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC19EB1219F49FEB00A3762A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC19EAE719F49FEB00A3762A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEE0E061A076DED0077E890 /* SDImageCache.m in Sources */,
+				BCEE0E0C1A076DED0077E890 /* UIImageView+WebCache.m in Sources */,
+				BC99BEE01A0F55C500A3C791 /* BaguaDetailController.m in Sources */,
+				BC145F6C1A149D1600732D8B /* BBSDetailViewCell.m in Sources */,
+				BCFD31B01A0B3DFA0007F384 /* ProModel.m in Sources */,
+				BC19EAFF19F49FEB00A3762A /* AppDelegate.m in Sources */,
+				BCBC0BD71A0B9623007266C7 /* MyScrollView.m in Sources */,
+				BC38EB721A0A292A001834A5 /* EquipViewController.m in Sources */,
+				BC0D306D1A033B980079AF06 /* HttpRequestManager.m in Sources */,
+				BCEE0E081A076DED0077E890 /* SDWebImageDownloader.m in Sources */,
+				BCEDFA581A1367DC00F1288A /* DtViewController.m in Sources */,
+				BC38EB6F1A0A27E0001834A5 /* VideoViewController.m in Sources */,
+				BCEE0E1F1A07A1F60077E890 /* RefreshView.m in Sources */,
+				BC145F651A14962100732D8B /* BBSDetailModel.m in Sources */,
+				BCE794801A123AFD00B20D69 /* MoreViewController.m in Sources */,
+				BC98E8F51A08D13600261F9E /* JewelryViewController.m in Sources */,
+				BCEDFA5C1A138FCD00F1288A /* BBSModel.m in Sources */,
+				BCE7946C1A11D2BD00B20D69 /* MyFooterView.m in Sources */,
+				BC19EB3419F4B04900A3762A /* SrcViewController.m in Sources */,
+				BCFF03E11A15AF6D006464F2 /* Tools.m in Sources */,
+				BCFD31841A0B128C0007F384 /* ProViewController.m in Sources */,
+				BC19EB2B19F4A29D00A3762A /* BaguaViewController.m in Sources */,
+				BCEE0E161A07813C0077E890 /* DetailViewController.m in Sources */,
+				BC145F5B1A14451E00732D8B /* LoginViewController.m in Sources */,
+				BC0D30691A0339B50079AF06 /* BnsModel.m in Sources */,
+				BC99BEE61A0F620D00A3C791 /* WeaponDetailController.m in Sources */,
+				BCEE0E071A076DED0077E890 /* SDWebImageDecoder.m in Sources */,
+				BC98E9071A08F10300261F9E /* BaseModel.m in Sources */,
+				BC19EAFB19F49FEB00A3762A /* main.m in Sources */,
+				BCFF03D61A159B46006464F2 /* BBSMoreModel.m in Sources */,
+				BC7C387A1A10A08400522D94 /* ImageModel.m in Sources */,
+				BCEE0E091A076DED0077E890 /* SDWebImageManager.m in Sources */,
+				BC7C38771A10A06400522D94 /* CollectLayOut.m in Sources */,
+				BCF872EB1A02695100950D32 /* BnsViewController.m in Sources */,
+				BCFF03D31A159851006464F2 /* BBSMoreController.m in Sources */,
+				BC19EB2219F4A05A00A3762A /* MyTabBarController.m in Sources */,
+				BC99BEEA1A0F6A8700A3C791 /* PhotoViewController.m in Sources */,
+				BC145F621A14902700732D8B /* BBSDetailController.m in Sources */,
+				BC98E90B1A08F6A100261F9E /* MainViewCell.m in Sources */,
+				BCEDFA331A1340B000F1288A /* BBSViewController.m in Sources */,
+				BCEE0E101A076ED20077E890 /* BnsViewCell.m in Sources */,
+				BCFD31BF1A0B4E990007F384 /* ListViewController.m in Sources */,
+				BCFF03DD1A15A3F3006464F2 /* BBSMoreViewCell.m in Sources */,
+				BC7C38741A10A04E00522D94 /* CollectViewCell.m in Sources */,
+				BCEE0E0A1A076DED0077E890 /* SDWebImagePrefetcher.m in Sources */,
+				BCFD31881A0B149D0007F384 /* ProViewCell.m in Sources */,
+				BCE794711A11F33900B20D69 /* PhotoDetailController.m in Sources */,
+				BC145F5F1A14507C00732D8B /* RegisterViewController.m in Sources */,
+				BCEDFA2C1A133C5000F1288A /* MyNavController.m in Sources */,
+				BC98E9041A08F0B200261F9E /* MainModel.m in Sources */,
+				BCEE0E0B1A076DED0077E890 /* UIButton+WebCache.m in Sources */,
+				BC19EB2619F4A16B00A3762A /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC19EB0219F49FEB00A3762A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC19EB1419F49FEB00A3762A /* BnSBangTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC19EB0C19F49FEB00A3762A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC19EAEA19F49FEB00A3762A /* 剑灵帮帮 */;
+			targetProxy = BC19EB0B19F49FEB00A3762A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC19EAF719F49FEB00A3762A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC19EAF819F49FEB00A3762A /* en */,
+				BC0B30DC1A09D19E00581241 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC19EB1019F49FEB00A3762A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC19EB1119F49FEB00A3762A /* en */,
+				BC0B30DD1A09D19E00581241 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC19EB1519F49FEB00A3762A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC19EB1619F49FEB00A3762A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC19EB1819F49FEB00A3762A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = $SRCROOT;
+				INFOPLIST_FILE = "BnSBang/剑灵帮帮-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "剑灵帮帮";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC19EB1919F49FEB00A3762A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = $SRCROOT;
+				INFOPLIST_FILE = "BnSBang/剑灵帮帮-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "剑灵帮帮";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BC19EB1B19F49FEB00A3762A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BnSBang.app/BnSBang";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BnSBang/BnSBang-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BnSBangTests/剑灵帮帮Tests-Info.plist";
+				PRODUCT_NAME = "剑灵帮帮Tests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BC19EB1C19F49FEB00A3762A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BnSBang.app/BnSBang";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BnSBang/BnSBang-Prefix.pch";
+				INFOPLIST_FILE = "BnSBangTests/剑灵帮帮Tests-Info.plist";
+				PRODUCT_NAME = "剑灵帮帮Tests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC19EAE619F49FEB00A3762A /* Build configuration list for PBXProject "剑灵帮帮" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC19EB1519F49FEB00A3762A /* Debug */,
+				BC19EB1619F49FEB00A3762A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC19EB1719F49FEB00A3762A /* Build configuration list for PBXNativeTarget "剑灵帮帮" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC19EB1819F49FEB00A3762A /* Debug */,
+				BC19EB1919F49FEB00A3762A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC19EB1A19F49FEB00A3762A /* Build configuration list for PBXNativeTarget "剑灵帮帮Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC19EB1B19F49FEB00A3762A /* Debug */,
+				BC19EB1C19F49FEB00A3762A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC19EAE319F49FEB00A3762A /* Project object */;
+}

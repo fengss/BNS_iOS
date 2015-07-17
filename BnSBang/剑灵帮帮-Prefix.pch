@@ -1,0 +1,44 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "Tools.h"
+
+#define TOPCOLOR [UIColor colorWithRed:0.8 green:0 blue:0 alpha:1]
+#define BG_COLOR [UIColor colorWithRed:0.0275 green:0.0275 blue:0.0275 alpha:1]
+#define POST_URL @"http://appcms.duowan.com/?r=api/GetArticleListByTags"
+#define BODY_1 @"lastId=272916884649&channel=bns&tags=%E6%89%8B%E6%9C%BA%E9%A6%96%E9%A1%B5"
+#define BODY_2 @"lastId=257508406217&channel=bns&tags=%E6%B4%BB%E5%8A%A8"
+#define BODY_3 @"lastId=258456884285&channel=bns&tags=%E7%89%88%E6%9C%AC%E5%85%AC%E5%91%8A"
+#define BODY_4 @"lastId=275139562375&channel=bns&tags=%E9%9F%A9%E6%9C%8D%E8%B5%84%E8%AE%AF"
+#define BODY_5 @"lastId=278620764386&channel=bns&tags=%E5%BE%AE%E4%BF%A1"
+
+#define BODY_VIDEO_1 @"lastId=279124731206&channel=bns&tags=%E6%B8%B8%E6%88%8F%E8%A7%86%E9%A2%91"
+#define BODY_VIDEO_2 @"lastId=279124620791&channel=bns&tags=%E5%AE%A3%E4%BC%A0%E8%A7%86%E9%A2%91"
+#define BODY_VIDEO_3 @"lastId=279124731206&channel=bns&tags=%E6%94%BB%E7%95%A5%E8%A7%86%E9%A2%91"
+#define BODY_VIDEO_4 @"lastId=278699833702&channel=bns&tags=PK%E8%A7%86%E9%A2%91"
+#define BODY_VIDEO_5 @""
+
+#define PHOTO_URL @"http://bnsbox.oss.aliyuncs.com/json/tu/list_%d_%d.json?r=0"
+#define PHOTO_DETAIL_URL @"http://bnsbox.oss.aliyuncs.com/json/tu/%d/tu_%d.json?r=0"
+
+#define BBS_URL @"http://bbs.duowan.com/api/mobile/?module=forumdisplay&fid=2332"
+#define BBS_DETAIL_URL @"http://bbs.duowan.com/api/mobile/?module=forumdisplay&page=%d&fid=%@"
+#define BBS_MORE_URL @"http://bbs.duowan.com/api/mobile/?module=threaddetail&page=%d&tid=%@"
+
+#define SCROLL_URL @"http://appcms.duowan.com/?r=api/GetArticleListByTags&channel=bns&tags=%E6%89%8B%E6%9C%BA%E5%BA%94%E7%94%A8%E5%A4%B4%E5%9B%BE&limit=4"
+#define SCROLL_VIDEO_URL @"http://appcms.duowan.com/?r=api/GetArticleListByTags&channel=bns&tags=%E6%89%8B%E6%9C%BA%E8%A7%86%E9%A2%91%E5%A4%B4%E5%9B%BE&limit=4"
+#define ARTICLE_URL @"http://appcms.duowan.com/?r=api/GetArticleDetail&url=http://bns.duowan.com/1408/%@.html"
+
+#endif

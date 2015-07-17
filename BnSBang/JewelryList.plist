@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>青星项链</string>
+		<key>imgName</key>
+		<string>qingxing</string>
+		<key>nameColor</key>
+		<string>chuanshuo</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>黑星耳环</string>
+		<key>imgName</key>
+		<string>heixing</string>
+		<key>nameColor</key>
+		<string>chuanshuo</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>赤星戒指</string>
+		<key>imgName</key>
+		<string>chixing</string>
+		<key>nameColor</key>
+		<string>chuanshuo</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>黄星腰带</string>
+		<key>imgName</key>
+		<string>huangxing</string>
+		<key>nameColor</key>
+		<string>chuanshuo</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>白星手镯</string>
+		<key>imgName</key>
+		<string>baixing</string>
+		<key>nameColor</key>
+		<string>chuanshuo</string>
+	</dict>
+</array>
+</plist>
